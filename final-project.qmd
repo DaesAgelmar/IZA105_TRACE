@@ -1,0 +1,71 @@
+---
+title: "Final Projesi"
+subtitle: "Research Data Preparation Package + Decision Sensitivity"
+---
+
+## Amaç
+
+Bir ampirik akademik çalışmanın analizini mümkün kılacak veri malzemesini yeniden üretilebilir biçimde hazırlamak. Finalin nesnesi **istatistiksel model değil, analize girecek veri nesnesinin üretim zinciridir**.
+
+M6 bu final için bir tasarım örneği sağlar: source representation sabitlenir, analitik seçimler ayrıştırılır, dönüşümlerin observation membership'e yayılımı izlenir ve implementation correctness ile substantive validity birbirine karıştırılmaz. @yayla2026beforevalidation
+
+## Proje türleri
+
+Öğrenci dönem içinde üç yoldan birini seçebilir:
+
+**Reconstruction:** hedef makalenin tarif ettiği analysis-ready veri nesnesini mümkün olduğunca yeniden kurmak.
+
+**Replication-ready preparation:** açık/yeniden edinilebilir ham kaynaklardan başlayarak makalenin analizine girecek veri setini üretmek.
+
+**Conceptual extension:** aynı araştırma sorusunu başka zaman, ülke, kurum veya veri kaynağında test etmeye uygun veri paketini hazırlamak.
+
+## Zorunlu final bileşenleri
+
+| Bileşen | Beklenen çıktı |
+|---|---|
+| Hedef çalışma ve analitik amaç | Araştırma sorusu + gerekli observation unit |
+| Source inventory | Kaynak, sürüm/tarih, erişim ve kapsam |
+| Acquisition log | Verinin nasıl yeniden edinileceği |
+| Raw/source references | Paylaşılamıyorsa yeniden edinme talimatı |
+| Data dictionary | Alanların anlamı, tipi ve rolü |
+| Transformation specification | Her kritik dönüşümün gerekçesi |
+| Executable workflow | Seçilen araç(lar)la yeniden çalıştırılabilir pipeline |
+| Analysis-ready dataset | Modellemeye hazır son veri nesnesi |
+| Validation report | N, keys, missingness, ranges, invariants, reconciliation |
+| Lineage/provenance map | Source → intermediate → curated |
+| Governance & reuse note | Lisans, gizlilik, minimization, paylaşım |
+| **Decision Sensitivity Map** | Makul alternatif veri kararları ve olası etkileri |
+| **Tested branch** | En kritik kararlardan en az birinin iki versiyonunun ampirik karşılaştırması |
+| Unresolved issue | Çözülemeyen veri sorunu/varsayım ve etkisi |
+| README | Başka araştırmacının paketi yeniden kurması için talimat |
+| Sanity check | Basit N/tablo/grafik; model replikasyonu değil |
+
+## Decision Sensitivity Map
+
+Öğrenci en az dört önemli data decision belirler:
+
+| Karar | Primary choice | Plausible alternative | Beklenen etki | Test edildi mi? |
+|---|---|---|---|---|
+| Missing data | complete case | imputation / explicit missing | yüksek | evet/hayır |
+| Entity matching | exact | normalized/fuzzy | yüksek | evet/hayır |
+| Observation window | 2018–2026 | 2020–2026 | orta | evet/hayır |
+| Category coding | detailed | aggregated | orta | evet/hayır |
+
+Bu tablo, “her şeyi dene” multiverse'ü değildir. Alternative branch'ler teorik ve veri yapısı açısından **savunulabilir comparison space** içinde olmalıdır. @simonsohn2020specification @young2018uncertainty
+
+## Tested branch
+
+Haritadaki en kritik kararlardan en az biri gerçekten uygulanır. İki branch sonrasında küçük bir downstream quantity karşılaştırılır. Amaç p-değerini değiştirmek değil; **data decision'ın empirical object veya temel özet üzerindeki etkisini gözlemlemektir**.
+
+## M6'dan transfer edilen dört disiplin
+
+M6'nın final için önemli dersi sonuçlarını kopyalamak değil, araştırma mantığını taşımaktır:
+
+1. Input representation'ı dondur veya sürümle.
+2. Candidate/sample construction ile downstream operationalization'ı ayır.
+3. Implementation discrepancy ile substantive difference'ı ayır.
+4. Change incidence, magnitude, calibration ve validity'yi aynı kavram gibi raporlama.
+
+## Sanity check sınırı
+
+Final bir istatistiksel modelleme dersi finaline dönüşmemelidir. Basit descriptive statistics, cross-tab, correlation veya küçük grafik yalnız **analysis-ready oluşu ve branch consequence'ını göstermek** için kullanılır.

@@ -1,0 +1,60 @@
+---
+title: "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+---
+
+## Haftanın akademik problemi
+
+Wide/long/tidy; observation unit; granularity; representation ile araştırma sorusu arasındaki ilişki.
+
+## Ders öncesi akademik okumalar
+
+- **Okuma A:** @wickham2014tidy — Tidy data ilkelerini observation-variable-value ilişkisi üzerinden kurmak.
+- **Okuma B:** @broman2018spreadsheet — Spreadsheet organizasyonunun hata üretimini ve downstream analizi nasıl etkilediğini görmek.
+
+::: {.anchor-card}
+**Okuma amacı:** iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.
+
+READ formunda `Claim → Evidence → Decision → Transfer` kaydı bırakın.
+:::
+
+[Okuma formunu aç]({{< var w02_reading_form >}}){.btn .btn-primary}
+
+
+## M6 Case Window
+
+::: {.case-card}
+M6'da citation event; `citation_age`, citing-work field ve document type ile temsil edilir. Boundary daha sonra hangi event'lerin pre-transition phase'e ait olduğunu belirler. Yani aynı scholarly record, araştırma sorusuna göre event-level yeni bir analitik nesneye dönüştürülür. @yayla2026beforevalidation
+
+**Vaka sorusu:** Aynı source record'u paper-level, year-level veya citation-event-level temsil etmek hangi soruları mümkün veya imkânsız kılar?
+:::
+
+## Ders içi TRACE
+
+<div class="flow">
+Predict → Encounter → Probe → Explain → Decide → Verify → Consequence check
+</div>
+
+**Predict:** işlemden önce beklenen veri yapısını veya farkı yaz.  
+**Encounter:** işlemi seçilen araçla gerçekleştir.  
+**Probe:** makul bir alternative data decision veya specification uygula.  
+**Explain:** iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.  
+**Decide:** primary branch'i literatür ve araştırma amacıyla gerekçelendir.  
+**Verify:** teknik invariants + downstream consequence kontrolü üret.
+
+### Araç paleti
+
+Excel/Power Query, KNIME Pivot/Unpivot, pandas veya tidyr
+
+Araç seçimi notlandırılan karmaşıklık düzeyi değildir; **problem–tool fit** gerekçelendirilir.
+
+## Ders sonrası pekiştirici eylem
+
+::: {.task-card}
+Dağınık bir tabloyu tidy hâle getir ve aynı verinin ikinci, fakat araştırma açısından meşru bir temsilini üret. İki representation için observation unit'i açıkça yaz. **Verify:** observation count ve kritik toplamları reconcile et. **Consequence check:** iki temsilin aynı soruya cevap vermediğini bir örnek üzerinden göster.
+:::
+
+[TRACE ödev formunu aç]({{< var w02_task_form >}}){.btn .btn-success}
+
+## Teslim kanıtı
+
+Teslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.

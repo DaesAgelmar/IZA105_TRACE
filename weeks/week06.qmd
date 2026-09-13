@@ -1,0 +1,60 @@
+---
+title: "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+---
+
+## Haftanın akademik problemi
+
+Type conversion, recoding, derived variables, aggregation, pivot; dönüşümün ölçüm nesnesini kurması.
+
+## Ders öncesi akademik okumalar
+
+- **Okuma A:** @baumer2014rmarkdown — Dönüşüm zincirini yeniden üretilebilir hesaplamalı dokümantasyonla bütünleştirmek.
+- **Okuma B:** @gelman2014crisis — Analiz yolunun çok sayıda makul karara ayrılabileceğini ve sonucu gördükten sonra verilen kararların riskini anlamak.
+
+::: {.anchor-card}
+**Okuma amacı:** iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.
+
+READ formunda `Claim → Evidence → Decision → Transfer` kaydı bırakın.
+:::
+
+[Okuma formunu aç]({{< var w06_reading_form >}}){.btn .btn-primary}
+
+
+## M6 Case Window
+
+::: {.case-card}
+M6'da üç operator aynı source trajectory'yi farklı representation'larla işler: Ke annual counts, Du-Wu cumulative citation shares, Fang ise derivative representation kullanır. Dönüşüm yalnız format değişikliği değil; transition boundary'nin nasıl ölçülebilir hâle getirileceğini belirler. @ke2015sleeping @du2018parameter @fang2018derivative
+
+**Vaka sorusu:** Bir transform ne zaman veri mühendisliği adımı olmaktan çıkıp construct operationalization hâline gelir?
+:::
+
+## Ders içi TRACE
+
+<div class="flow">
+Predict → Encounter → Probe → Explain → Decide → Verify → Consequence check
+</div>
+
+**Predict:** işlemden önce beklenen veri yapısını veya farkı yaz.  
+**Encounter:** işlemi seçilen araçla gerçekleştir.  
+**Probe:** makul bir alternative data decision veya specification uygula.  
+**Explain:** iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.  
+**Decide:** primary branch'i literatür ve araştırma amacıyla gerekçelendir.  
+**Verify:** teknik invariants + downstream consequence kontrolü üret.
+
+### Araç paleti
+
+Power Query/KNIME/Python/R; araç seçimi serbest
+
+Araç seçimi notlandırılan karmaşıklık düzeyi değildir; **problem–tool fit** gerekçelendirilir.
+
+## Ders sonrası pekiştirici eylem
+
+::: {.task-card}
+En az beş aşamalı **Transformation Contract** oluştur: `input assumption → operation → expected output → validation`. En az bir derived variable için iki makul operationalization düşün; primary olanı sonucu görmeden gerekçelendir ve alternatifini sensitivity branch olarak kaydet.
+:::
+
+[TRACE ödev formunu aç]({{< var w06_task_form >}}){.btn .btn-success}
+
+## Teslim kanıtı
+
+Teslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.

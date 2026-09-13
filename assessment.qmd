@@ -1,0 +1,41 @@
+---
+title: "Değerlendirme"
+---
+
+## Genel yapı
+
+Resmî 40/60 ağırlığı korunur:
+
+| Değerlendirme | Ağırlık | Format |
+|---|---:|---|
+| **Vize — Veri Hazırlama Denetimi** | %40 | Take-home audit |
+| **Final — Research Data Preparation Package** | %60 | Dönem boyunca geliştirilen veri paketi |
+
+Haftalık READ/TASK çalışmaları bu iki teslimin hazırlık artefaktlarıdır.
+
+## Vize — Hafta 7
+
+Öğrenci daha önce görmediği veya final projesine aday bir veri üzerinde şu zinciri kurar:
+
+`Source → Quality → Cleaning → Transformation → Alternative branch → Verification`
+
+Vizede en az üç önceki akademik okuma somut kararlara bağlanır. En az bir veri kararı için **iki savunulabilir alternatif** uygulanır ve küçük bir downstream quantity'nin değişip değişmediği gösterilir.
+
+Tam modelleme beklenmez. Örneğin `N`, missing oranı, kategori dağılımı, grup ortalaması, oran veya basit correlation yeterli olabilir.
+
+## M6'nın vizedeki rolü
+
+M6 bir ezber sorusu değildir. Öğrenci M6'nın mantığından şu tasarım disiplinini taşır: **aynı input üzerinde ne sabit tutuldu, ne değiştirildi ve fark hangi veri nesnesine yayıldı?** @yayla2026beforevalidation
+
+## Final değerlendirme mantığı
+
+Final yalnız “çalışan pipeline” değildir. Değerlendirme dört boyutu birlikte dikkate alır:
+
+| Boyut | Temel soru |
+|---|---|
+| **Construction** | Analize hazır veri nesnesi açık ve savunulabilir biçimde üretildi mi? |
+| **Traceability** | Kaynaktan son çıktıya karar ve dönüşüm zinciri izlenebiliyor mu? |
+| **Verification** | Kritik iddialar somut kontrollerle doğrulandı mı? |
+| **Sensitivity** | En kritik veri kararlarından en az birinin makul alternatifi sınandı mı? |
+
+Bir öğrencinin daha karmaşık yazılım kullanması tek başına daha yüksek not üretmez.

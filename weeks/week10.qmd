@@ -1,0 +1,60 @@
+---
+title: "Hafta 10 — Zamansal veri: observation window ve event time"
+---
+
+## Haftanın akademik problemi
+
+Snapshot, temporal scope, event time/processing time, late data ve observation-horizon sensitivity.
+
+## Ders öncesi akademik okumalar
+
+- **Okuma A:** @akidau2015dataflow — Event time, out-of-order data ve correctness kavramlarını temporal data processing içinde görmek.
+- **Okuma B:** @webb2023multiverse — Study-design ve analytic decisions'ın aynı veri üzerinde outcome variation üretebildiğini uygulamalı görmek.
+
+::: {.anchor-card}
+**Okuma amacı:** iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.
+
+READ formunda `Claim → Evidence → Decision → Transfer` kaydı bırakın.
+:::
+
+[Okuma formunu aç]({{< var w10_reading_form >}}){.btn .btn-primary}
+
+
+## M6 Case Window
+
+::: {.case-card}
+Primary horizon `H=30`'dur; `H=25` ve `H=35` prespecified sensitivity olarak test edilir. Appendix'te boundary stability operator'e göre farklıdır: Fang jointly resolved cases'te değişmezken Du-Wu daha düşük exact agreement gösterir. Bu, observation window'un nötr bir teknik ayar olmadığını gösterir. @yayla2026appendixm6
+
+**Vaka sorusu:** Bir time window değiştirdiğinizde daha fazla veri mi ekliyorsunuz, yoksa ölçüm nesnesini yeniden mi tanımlıyorsunuz?
+:::
+
+## Ders içi TRACE
+
+<div class="flow">
+Predict → Encounter → Probe → Explain → Decide → Verify → Consequence check
+</div>
+
+**Predict:** işlemden önce beklenen veri yapısını veya farkı yaz.  
+**Encounter:** işlemi seçilen araçla gerçekleştir.  
+**Probe:** makul bir alternative data decision veya specification uygula.  
+**Explain:** iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.  
+**Decide:** primary branch'i literatür ve araştırma amacıyla gerekçelendir.  
+**Verify:** teknik invariants + downstream consequence kontrolü üret.
+
+### Araç paleti
+
+Power Query refresh, SQL date functions, KNIME veya Python/R
+
+Araç seçimi notlandırılan karmaşıklık düzeyi değildir; **problem–tool fit** gerekçelendirilir.
+
+## Ders sonrası pekiştirici eylem
+
+::: {.task-card}
+Bir temporal veri setinde primary window ve iki plausible alternative window tanımla. Aynı summary/derived object'i üç window'da üret. **Predict** hangi kayıtların değişeceğini yaz; **Verify** overlap ve unique-event sayılarını reconcile et.
+:::
+
+[TRACE ödev formunu aç]({{< var w10_task_form >}}){.btn .btn-success}
+
+## Teslim kanıtı
+
+Teslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.

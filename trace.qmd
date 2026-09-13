@@ -1,0 +1,39 @@
+---
+title: "TRACE"
+subtitle: "İşlemi görünür, kararı tartışılabilir, sonucu doğrulanabilir kılmak"
+---
+
+TRACE bu derste yalnız bir laboratuvar sırası değil; veri kararının **önceden ifade edilmesini, alternatifinin sınanmasını ve sonucunun belgelenmesini** sağlayan çalışma protokolüdür.
+
+| Aşama | İZA105'te karşılığı | Tipik kanıt |
+|---|---|---|
+| **Predict** | İşlemden önce beklenen veri şekli, cardinality, kayıp veya sorun ifade edilir. | Beklenen N, key yapısı, missing oranı, boundary davranışı |
+| **Encounter** | Seçilen araçla işlem yürütülür. | Workflow/script ve üretilen çıktı |
+| **Probe** | Makul bir parametre, veri kararı veya specification değiştirilir. | Alternatif cleaning, join, horizon, category, boundary |
+| **Explain** | İki branch arasındaki fark mekanizma düzeyinde açıklanır. | Hangi kayıtların neden değiştiği |
+| **Decide** | Araştırma amacı için savunulabilir branch seçilir. | Literatüre ve veri yapısına dayalı gerekçe |
+| **Verify** | Teknik ve analitik invariant'lar kontrol edilir. | Row reconciliation, key uniqueness, range, checksum, expected totals |
+
+## Consequence Check
+
+TRACE'in harflerini değiştirmiyoruz. Ancak özellikle `Probe → Explain → Verify` arasında şu ek soruyu soruyoruz:
+
+> **Makul alternatif karar yalnız kodu mu değiştiriyor, yoksa analize girecek ampirik nesneyi de değiştiriyor mu?**
+
+Bu soru @steegen2016multiverse, @silberzahn2018many, @schweinsberg2021same ve @simonsohn2020specification tarafından görünür kılınan specification uncertainty problemini data preparation düzeyine taşır.
+
+## M6 üzerinde TRACE
+
+M6 vakasında aynı sabit citation histories üzerinde üç literature-grounded transition operator karşılaştırılır. Operatörler farklı boundary'ler üretebildiği için `Probe` yalnız bir parametre deneyi değildir; **hangi citation event'lerin pre-transition phase'e gireceğini değiştiren ölçüm kararıdır**. @yayla2026beforevalidation
+
+::: {.case-card}
+**Önemli ayrım:** implementation verification ile substantive validity aynı değildir.
+
+M6 Appendix A6, operator implementasyonlarının belirtilen kurallara uyduğunu test eder. Bu, kodun doğru uygulandığını gösterir; fakat seçilen boundary'nin “gerçek” awakening time olduğunu kanıtlamaz. @yayla2026appendixm6
+:::
+
+## Ders boyunca kabul edilen doğrulama türleri
+
+Doğrulama sadece “çıktı oluştu” değildir. Row-count reconciliation, key uniqueness, schema/type kontrolleri, missingness, range/logic constraints, source-to-output totals, deterministic rerun, checksum/hash ve iki bağımsız implementation'ın eşdeğerlik kontrolü gibi kanıtlar kullanılabilir.
+
+M6 running case bu ayrımı tekrar tekrar gösterir: boundary displacement, event-set change, composition change ve reference-relative unusualness **aynı şey değildir**. Dolayısıyla bir sonraki sonuca geçmeden önce bir önceki veri nesnesi ayrıca doğrulanır.

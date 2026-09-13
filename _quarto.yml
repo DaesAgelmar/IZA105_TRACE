@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "İZA105 | Veri Manipülasyonu"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Ana Sayfa
+      - href: course-guide.qmd
+        text: Ders Rehberi
+      - href: trace.qmd
+        text: TRACE
+      - href: m6-case.qmd
+        text: M6 Vaka
+      - href: participation.qmd
+        text: Katılım
+      - href: assessment.qmd
+        text: Değerlendirme
+      - href: final-project.qmd
+        text: Final Projesi
+    right:
+      - icon: github
+        href: https://github.com/
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - course-guide.qmd
+      - trace.qmd
+      - m6-case.qmd
+      - participation.qmd
+      - assessment.qmd
+      - final-project.qmd
+      - section: "Haftalar"
+        contents:
+          - weeks/week01.qmd
+          - weeks/week02.qmd
+          - weeks/week03.qmd
+          - weeks/week04.qmd
+          - weeks/week05.qmd
+          - weeks/week06.qmd
+          - weeks/week07.qmd
+          - weeks/week08.qmd
+          - weeks/week09.qmd
+          - weeks/week10.qmd
+          - weeks/week11.qmd
+          - weeks/week12.qmd
+          - weeks/week13.qmd
+          - weeks/week14.qmd
+  page-footer:
+    left: "İZA105 — Veri Manipülasyonu"
+    right: "TRACE • akademik okuma • M6 running case • reproducible data work"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
+
+lang: tr

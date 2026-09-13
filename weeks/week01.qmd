@@ -1,0 +1,60 @@
+---
+title: "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+---
+
+## Haftanın akademik problemi
+
+Data lifecycle; source representation; observation, variable, entity; veri üretim izlenebilirliği.
+
+## Ders öncesi akademik okumalar
+
+- **Okuma A:** @cetinkaya2021fresh — Veri bilimi sürecini acquisition, wrangling ve communication dahil bütün bir analitik döngü olarak görmek.
+- **Okuma B:** @uher2020traceability — Sayısal değerin kendisinden önce data generation traceability ve numerical traceability sorununu kavramak.
+
+::: {.anchor-card}
+**Okuma amacı:** iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.
+
+READ formunda `Claim → Evidence → Decision → Transfer` kaydı bırakın.
+:::
+
+[Okuma formunu aç]({{< var w01_reading_form >}}){.btn .btn-primary}
+
+
+## M6 Case Window
+
+::: {.case-card}
+M6'nın başlangıç nesnesi SciSciNet-v2'dir; fakat çalışma doğrudan canlı kaynağı analiz etmez. Kaynak representation 7 Eylül 2026 tarihli snapshot olarak dondurulur; `H=30`, 1980–1994 scope ve `N=1,351` candidate birer tasarım sabitidir. @yayla2026appendixm6
+
+**Vaka sorusu:** Bir hücredeki veya satırdaki değeri 'veri' yapan şey yalnız değerin kendisi midir, yoksa onu üreten zincir de analitik nesnenin parçası mıdır?
+:::
+
+## Ders içi TRACE
+
+<div class="flow">
+Predict → Encounter → Probe → Explain → Decide → Verify → Consequence check
+</div>
+
+**Predict:** işlemden önce beklenen veri yapısını veya farkı yaz.  
+**Encounter:** işlemi seçilen araçla gerçekleştir.  
+**Probe:** makul bir alternative data decision veya specification uygula.  
+**Explain:** iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.  
+**Decide:** primary branch'i literatür ve araştırma amacıyla gerekçelendir.  
+**Verify:** teknik invariants + downstream consequence kontrolü üret.
+
+### Araç paleti
+
+Excel/CSV viewer, KNIME veya Python/R ile inspection
+
+Araç seçimi notlandırılan karmaşıklık düzeyi değildir; **problem–tool fit** gerekçelendirilir.
+
+## Ders sonrası pekiştirici eylem
+
+::: {.task-card}
+Bir açık veri seti için **Data Autopsy** oluştur. `source → acquired representation → cleaning/transformation → analysis-ready object` zincirinde en az sekiz kararı `observed / inferred / unknown` olarak etiketle. M6 ile karşılaştırarak hangi aşamada 'source data' ile 'study data' ayrışıyor, açıklayın. En az bir dosya hash'i veya sürüm/tarih kanıtı ekleyin.
+:::
+
+[TRACE ödev formunu aç]({{< var w01_task_form >}}){.btn .btn-success}
+
+## Teslim kanıtı
+
+Teslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.

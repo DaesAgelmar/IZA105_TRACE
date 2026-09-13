@@ -1,0 +1,47 @@
+---
+title: "İZA105 — Veri Manipülasyonu"
+subtitle: "Veri kararları, izlenebilirlik ve analitik sonuçlar"
+---
+
+## Dersin temel sorusu
+
+**Bir akademik iddianın ihtiyaç duyduğu veri nesnesi nasıl bulunur, kurulur, dönüştürülür, doğrulanır ve başka bir araştırmacının yeniden üretebileceği hâle getirilir?**
+
+İZA105 bir komut veya yazılım dersi değildir. Dersin nesnesi, **ham kayıttan analize hazır veri nesnesine giden karar zinciridir**. Excel, Power Query, OpenRefine, KNIME, SQL/DuckDB, Python ve R bu zincirde probleme göre seçilen alternatif araçlardır.
+
+::: {.trace-box}
+### Dersin ana ilkesi
+
+Bir veri dönüşümü yalnızca teknik bir işlem değildir.  
+Dönüşüm, analize girecek ampirik nesnenin **kimlerden, hangi kayıtlardan, hangi zaman aralığından ve hangi temsil biçiminden oluşacağını** belirleyebilir.
+
+Bu nedenle her önemli veri kararı:
+
+**gerekçe + alternatif + sonuç + doğrulama kanıtı**
+
+ile birlikte ele alınır.
+:::
+
+## Üç katmanlı ders mimarisi
+
+Her içerik haftası üç bileşeni birleştirir:
+
+| Katman | İşlev |
+|---|---|
+| **Teorik / veri-problemi okuması** | Haftanın veri problemini kavramsallaştırır. |
+| **Epistemik çıpa** | Makul veri/analiz kararlarının bilimsel sonucu neden değiştirebildiğini gösterir. |
+| **M6 running case** | Aynı ilkelerin gerçek bir bibliyometrik araştırmada veri nesnesini nasıl kurduğunu ve sonuçlara nasıl yayıldığını somutlaştırır. |
+
+Dönem boyunca kullanılan M6 vaka çalışması, @yayla2026beforevalidation ve analitik eki @yayla2026appendixm6, **tek doğru çözümü gösteren bir model cevap değildir**. Öğrencinin dış literatürde öğrendiği ilkeleri eleştirel biçimde sınadığı ortak bir ampirik laboratuvardır.
+
+## Haftalık ritim
+
+<div class="flow">
+Okuma → M6 vaka penceresi → Predict → Encounter → Probe → Explain → Decide → Verify → Consequence check
+</div>
+
+`Consequence check`, TRACE'e yeni bir harf eklemez. Öğrenci yalnızca işlemin doğru çalışıp çalışmadığını değil, **makul bir alternatif veri kararı verildiğinde downstream veri nesnesinin veya basit bir sonucun değişip değişmediğini** de kontrol eder.
+
+## Dönem sonunda
+
+Final projesinde öğrenci seçtiği ampirik çalışma için yeniden üretilebilir bir veri paketi oluşturur ve en kritik veri kararlarından en az birini alternatif bir specification ile test eder. Amaç tam istatistiksel replikasyon değil; **analizin güvenilir biçimde başlayabileceği veri nesnesini üretmek ve bu nesnenin hangi kararlara duyarlı olduğunu göstermek**tir.

@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>M6 Running Case – İZA105 | Veri Manipülasyonu</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./participation.html" rel="next">
+<link href="./trace.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-711d5f0cb2eecbce4b54be160a5a7e6e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sonuç yok",
+    "search-matching-documents-text": "eşleşen belgeler",
+    "search-copy-link-title": "Aramak için bağlantıyı kopyalayın",
+    "search-hide-matches-text": "Ek eşleşmeleri gizle",
+    "search-more-match-text": "bu belgede bir tane daha eşleşme",
+    "search-more-matches-text": "bu belgede daha fazla eşleşme",
+    "search-clear-button-title": "Temizle",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "İptal et",
+    "search-submit-button-title": "Gönder",
+    "search-label": "Ara"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">İZA105 | Veri Manipülasyonu</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Ara"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Gezinmeyi değiştir" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Ana Sayfa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./course-guide.html" aria-current="page"> 
+<span class="menu-text">Ders Rehberi</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./trace.html"> 
+<span class="menu-text">TRACE</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./m6-case.html"> 
+<span class="menu-text">M6 Vaka</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./participation.html"> 
+<span class="menu-text">Katılım</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./assessment.html"> 
+<span class="menu-text">Değerlendirme</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./final-project.html"> 
+<span class="menu-text">Final Projesi</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Kenar çubuğunu değiştir" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./m6-case.html">M6 Running Case</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Kenar çubuğunu değiştir" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Ara" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Ara"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ders Rehberi</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./trace.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">TRACE</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./m6-case.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">M6 Running Case</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./participation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aktif Katılım</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Değerlendirme</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./final-project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Projesi</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Haftalar</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Bölümü değiştir">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 01 — Veri bir dosya değil, analitik bir temsildir</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 05 — Veri temizleme bir ölçüm kararıdır</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 07 — Vize — Veri Hazırlama Denetimi</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 09 — Veri modeli, depolama ve erişim</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 10 — Zamansal veri: observation window ve event time</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week12.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 12 — Provenance, lineage ve implementation verification</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week13.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./weeks/week14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hafta 14 — Final — Research Data Preparation Package</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Bu sayfada</h2>
+   
+  <ul>
+  <li><a href="#neden-bu-vaka" id="toc-neden-bu-vaka" class="nav-link active" data-scroll-target="#neden-bu-vaka">Neden bu vaka?</a>
+  <ul class="collapse">
+  <li><a href="#m6nın-kontrol-mantığı" id="toc-m6nın-kontrol-mantığı" class="nav-link" data-scroll-target="#m6nın-kontrol-mantığı">M6’nın kontrol mantığı</a></li>
+  </ul></li>
+  <li><a href="#donmuş-ampirik-nesne" id="toc-donmuş-ampirik-nesne" class="nav-link" data-scroll-target="#donmuş-ampirik-nesne">Donmuş ampirik nesne</a></li>
+  <li><a href="#comparison-space" id="toc-comparison-space" class="nav-link" data-scroll-target="#comparison-space">Comparison space</a></li>
+  <li><a href="#ampirik-sonuç-zinciri" id="toc-ampirik-sonuç-zinciri" class="nav-link" data-scroll-target="#ampirik-sonuç-zinciri">Ampirik sonuç zinciri</a></li>
+  <li><a href="#teaching-slice-için-beklenen-şema" id="toc-teaching-slice-için-beklenen-şema" class="nav-link" data-scroll-target="#teaching-slice-için-beklenen-şema">Teaching slice için beklenen şema</a></li>
+  <li><a href="#öğrencinin-vakaya-yaklaşımı" id="toc-öğrencinin-vakaya-yaklaşımı" class="nav-link" data-scroll-target="#öğrencinin-vakaya-yaklaşımı">Öğrencinin vakaya yaklaşımı</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">M6 Running Case</h1>
+<p class="subtitle lead">Before Validation: veri kararının ampirik nesneyi nasıl kurduğunu izlemek</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="neden-bu-vaka" class="level2">
+<h2 class="anchored" data-anchor-id="neden-bu-vaka">Neden bu vaka?</h2>
+<p>Ders boyunca ortak örnek olay olarak <span class="citation" data-cites="yayla2026beforevalidation">Yayla (<a href="#ref-yayla2026beforevalidation" role="doc-biblioref">2026b</a>)</span> kullanılır. Çalışmanın temel sorusu, farklı fakat savunulabilir transition operationalization’ların <strong>aynı sabit citation history üzerinde aynı pre-transition phase’i yeniden kurup kurmadığıdır</strong>.</p>
+<p>Bu vaka İZA105 için uygundur çünkü veri manipülasyonunun sonradan yapılan nötr bir temizlik aşaması olmadığını somutlaştırır. Boundary’nin konumu değiştiğinde, sonraki analizde yer alan citation event’lerin üyeliği de değişebilir.</p>
+<section id="m6nın-kontrol-mantığı" class="level3 case-card">
+<h3 class="anchored" data-anchor-id="m6nın-kontrol-mantığı">M6’nın kontrol mantığı</h3>
+<p><strong>Sabit tutulan:</strong> candidate membership + citation histories<br>
+<strong>Değiştirilen:</strong> transition operationalization<br>
+<strong>İzlenen yayılım:</strong> boundary → event-set membership → field/doctype composition → calibration</p>
+<p>Bu tasarım, “farklı sonuç veri yüzünden mi, yöntem yüzünden mi?” sorusunu mümkün olduğunca kontrollü biçimde ayrıştırır.</p>
+</section>
+</section>
+<section id="donmuş-ampirik-nesne" class="level2">
+<h2 class="anchored" data-anchor-id="donmuş-ampirik-nesne">Donmuş ampirik nesne</h2>
+<p>Analitik ekte kaynak representation ve çalışma tasarımı ayrı tutulur. SciSciNet-v2 kaynak representation’ı sağlar; bunun 7 Eylül 2026 tarihli bir snapshot olarak dondurulması ise araştırma tasarımı kararıdır. Primary horizon <code>H = 30</code>, publication window <code>1980–1994</code>, candidate count <code>N = 1,351</code>’dir. <span class="citation" data-cites="yayla2026appendixm6">Yayla (<a href="#ref-yayla2026appendixm6" role="doc-biblioref">2026a</a>)</span></p>
+<p>Bu ayrım ders boyunca tekrar kullanılır:</p>
+<p><code>source data ≠ frozen input ≠ analysis-ready object ≠ substantive phenomenon</code></p>
+</section>
+<section id="comparison-space" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-space">Comparison space</h2>
+<p>Üç operator aynı analitik görevi çözer:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Temsil</th>
+<th>Boundary ilkesi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ke et al.</td>
+<td>annual citation counts</td>
+<td>reference line’a maksimum dik uzaklık</td>
+</tr>
+<tr class="even">
+<td>Du &amp; Wu</td>
+<td>cumulative citation shares</td>
+<td>cumulative representation’da maksimum uzaklık</td>
+</tr>
+<tr class="odd">
+<td>Fang</td>
+<td>citation-trajectory derivative</td>
+<td>derivative threshold + smoothing</td>
+</tr>
+</tbody>
+</table>
+<p>Kaynaklar: <span class="citation" data-cites="ke2015sleeping">Ke vd. (<a href="#ref-ke2015sleeping" role="doc-biblioref">2015</a>)</span>, <span class="citation" data-cites="du2018parameter">Du ve Wu (<a href="#ref-du2018parameter" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="fang2018derivative">Fang (<a href="#ref-fang2018derivative" role="doc-biblioref">2018</a>)</span>.</p>
+<p>Comparison space “uygulanabilecek bütün algoritmalar” değildir. Aynı boundary-localization görevini çözen, literature-grounded ve paper-specific deterministic boundary döndüren alternatiflerle sınırlandırılır. Bu, specification space’in hesaplanabilir olana değil <strong>savunulabilir olana</strong> göre tanımlanması ilkesidir. <span class="citation" data-cites="young2018uncertainty">Young (<a href="#ref-young2018uncertainty" role="doc-biblioref">2018</a>)</span> <span class="citation" data-cites="simonsohn2020specification">Simonsohn vd. (<a href="#ref-simonsohn2020specification" role="doc-biblioref">2020</a>)</span></p>
+</section>
+<section id="ampirik-sonuç-zinciri" class="level2">
+<h2 class="anchored" data-anchor-id="ampirik-sonuç-zinciri">Ampirik sonuç zinciri</h2>
+<p>M6’nın reported sonuçları öğrencinin dönem boyunca geri döneceği referans noktalarıdır:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aşama</th>
+<th>Bulgular</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Boundary placement</td>
+<td>pairwise exact agreement <code>%26.8–%41.2</code>; üç operator aynı boundary’yi yalnız <code>%17.3</code> vakada verdi</td>
+</tr>
+<tr class="even">
+<td>Event-set reconstruction</td>
+<td>boundary disagreement’ların <code>%95.1–%98.7</code>’si reconstructed event set’i değiştirdi</td>
+</tr>
+<tr class="odd">
+<td>Composition propagation</td>
+<td>object-changing eligible comparisons’ın <code>%98.3–%98.8</code>’inde field veya doctype representation tam olarak eşit kalmadı</td>
+</tr>
+<tr class="even">
+<td>Magnitude</td>
+<td>median field JSD yaklaşık <code>0.024–0.040</code>; median doctype JSD <code>0.011–0.018</code></td>
+</tr>
+<tr class="odd">
+<td>Calibration</td>
+<td>yaygın object sensitivity, tipik compositional divergence’ın mutlaka reference-relative unusualness olduğu anlamına gelmedi</td>
+</tr>
+</tbody>
+</table>
+<p>Dolayısıyla dersin ana ayrımlarından biri şudur:</p>
+<p><strong>incidence of change ≠ magnitude of change ≠ unusualness ≠ validity</strong></p>
+</section>
+<section id="teaching-slice-için-beklenen-şema" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-slice-için-beklenen-şema">Teaching slice için beklenen şema</h2>
+<p>Tam araştırma corpus’u yerine laboratuvarlarda instructor-provided küçük bir teaching slice kullanılabilir. Teaching slice aşağıdaki alanları içerecek şekilde hazırlanabilir:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Alan</th>
+<th>Rol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>focal_paper_id</code></td>
+<td>focal paper anahtarı</td>
+</tr>
+<tr class="even">
+<td><code>publication_year</code></td>
+<td>focal publication year</td>
+</tr>
+<tr class="odd">
+<td><code>citing_work_id</code></td>
+<td>citation event kaynağı</td>
+</tr>
+<tr class="even">
+<td><code>citing_year</code></td>
+<td>citing work year</td>
+</tr>
+<tr class="odd">
+<td><code>citation_age</code></td>
+<td>relative temporal coordinate</td>
+</tr>
+<tr class="even">
+<td><code>annual_citations</code></td>
+<td>annual trajectory representation</td>
+</tr>
+<tr class="odd">
+<td><code>citing_field</code></td>
+<td>composition attribute</td>
+</tr>
+<tr class="even">
+<td><code>document_type</code></td>
+<td>composition attribute</td>
+</tr>
+<tr class="odd">
+<td><code>boundary_ke</code></td>
+<td>Ke reconstruction</td>
+</tr>
+<tr class="even">
+<td><code>boundary_duwu</code></td>
+<td>Du-Wu reconstruction</td>
+</tr>
+<tr class="odd">
+<td><code>boundary_fang</code></td>
+<td>Fang reconstruction</td>
+</tr>
+</tbody>
+</table>
+<p>Bu sayfa gerçek veri uydurmaz; teaching slice öğretim elemanı tarafından araştırma çıktılarından ayrıca sağlanır.</p>
+</section>
+<section id="öğrencinin-vakaya-yaklaşımı" class="level2">
+<h2 class="anchored" data-anchor-id="öğrencinin-vakaya-yaklaşımı">Öğrencinin vakaya yaklaşımı</h2>
+<p>M6 “nasıl yapılması gerektiğinin cevabı” olarak değil, şu sorular için ortak testbed olarak kullanılır: Hangi input donduruldu? Hangi karar observation membership’i değiştirdi? Bir disagreement teknik implementation hatası mı, yoksa gerçek operationalization difference mı? Bir veri nesnesinin robust olması valid olduğu anlamına gelir mi? Hangi alternative specification karşılaştırmaya gerçekten dahildir?</p>
+<p>Tam metin ve analitik ek, öğretim elemanının belirleyeceği kapalı ders kanalı üzerinden dağıtılabilir; public site yalnız pedagojik vaka çerçevesini içerir.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referanslar</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-du2018parameter" class="csl-entry" role="listitem">
+Du, J., ve Y. Wu. 2018. <span>“A Parameter-Free Index for Identifying Under-Cited Sleeping Beauties in Science”</span>. <em>Scientometrics</em> 116 (2): 959-71. <a href="https://doi.org/10.1007/s11192-018-2780-0">https://doi.org/10.1007/s11192-018-2780-0</a>.
+</div>
+<div id="ref-fang2018derivative" class="csl-entry" role="listitem">
+Fang, H. 2018. <span>“Analysing the Variation Tendencies of the Numbers of Yearly Citations for Sleeping Beauties in Science by Using Derivative Analysis”</span>. <em>Scientometrics</em> 115 (2): 1051-70. <a href="https://doi.org/10.1007/s11192-018-2687-9">https://doi.org/10.1007/s11192-018-2687-9</a>.
+</div>
+<div id="ref-ke2015sleeping" class="csl-entry" role="listitem">
+Ke, Qing, Emilio Ferrara, Filippo Radicchi, ve Alessandro Flammini. 2015. <span>“Defining and Identifying Sleeping Beauties in Science”</span>. <em>Proceedings of the National Academy of Sciences</em> 112 (24): 7426-31. <a href="https://doi.org/10.1073/pnas.1424329112">https://doi.org/10.1073/pnas.1424329112</a>.
+</div>
+<div id="ref-simonsohn2020specification" class="csl-entry" role="listitem">
+Simonsohn, Uri, Joseph P. Simmons, ve Leif D. Nelson. 2020. <span>“Specification Curve Analysis”</span>. <em>Nature Human Behaviour</em> 4 (11): 1208-14. <a href="https://doi.org/10.1038/s41562-020-0912-z">https://doi.org/10.1038/s41562-020-0912-z</a>.
+</div>
+<div id="ref-yayla2026appendixm6" class="csl-entry" role="listitem">
+Yayla, Kemal. 2026a. <em>Appendix A: Before Validation: How Transition Operationalization Constructs Bibliometric Process Phases—Analytical and Computational Appendix</em>.
+</div>
+<div id="ref-yayla2026beforevalidation" class="csl-entry" role="listitem">
+Yayla, Kemal. 2026b. <em>Before Validation: How Transition Operationalization Constructs Bibliometric Process Phases</em>.
+</div>
+<div id="ref-young2018uncertainty" class="csl-entry" role="listitem">
+Young, Cristobal. 2018. <span>“Model Uncertainty and the Crisis in Science”</span>. <em>Socius: Sociological Research for a Dynamic World</em> 4: 2378023117737206. <a href="https://doi.org/10.1177/2378023117737206">https://doi.org/10.1177/2378023117737206</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopyalandı");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopyalandı");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./trace.html" class="pagination-link" aria-label="TRACE">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">TRACE</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./participation.html" class="pagination-link" aria-label="Aktif Katılım">
+        <span class="nav-page-text">Aktif Katılım</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>İZA105 — Veri Manipülasyonu</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>TRACE • akademik okuma • M6 running case • reproducible data work</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

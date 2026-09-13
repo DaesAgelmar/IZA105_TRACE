@@ -1,0 +1,84 @@
+---
+title: "M6 Running Case"
+subtitle: "Before Validation: veri kararının ampirik nesneyi nasıl kurduğunu izlemek"
+---
+
+## Neden bu vaka?
+
+Ders boyunca ortak örnek olay olarak @yayla2026beforevalidation kullanılır. Çalışmanın temel sorusu, farklı fakat savunulabilir transition operationalization'ların **aynı sabit citation history üzerinde aynı pre-transition phase'i yeniden kurup kurmadığıdır**.
+
+Bu vaka İZA105 için uygundur çünkü veri manipülasyonunun sonradan yapılan nötr bir temizlik aşaması olmadığını somutlaştırır. Boundary'nin konumu değiştiğinde, sonraki analizde yer alan citation event'lerin üyeliği de değişebilir.
+
+::: {.case-card}
+### M6'nın kontrol mantığı
+
+**Sabit tutulan:** candidate membership + citation histories  
+**Değiştirilen:** transition operationalization  
+**İzlenen yayılım:** boundary → event-set membership → field/doctype composition → calibration
+
+Bu tasarım, “farklı sonuç veri yüzünden mi, yöntem yüzünden mi?” sorusunu mümkün olduğunca kontrollü biçimde ayrıştırır.
+:::
+
+## Donmuş ampirik nesne
+
+Analitik ekte kaynak representation ve çalışma tasarımı ayrı tutulur. SciSciNet-v2 kaynak representation'ı sağlar; bunun 7 Eylül 2026 tarihli bir snapshot olarak dondurulması ise araştırma tasarımı kararıdır. Primary horizon `H = 30`, publication window `1980–1994`, candidate count `N = 1,351`'dir. @yayla2026appendixm6
+
+Bu ayrım ders boyunca tekrar kullanılır:
+
+`source data ≠ frozen input ≠ analysis-ready object ≠ substantive phenomenon`
+
+## Comparison space
+
+Üç operator aynı analitik görevi çözer:
+
+| Operator | Temsil | Boundary ilkesi |
+|---|---|---|
+| Ke et al. | annual citation counts | reference line'a maksimum dik uzaklık |
+| Du & Wu | cumulative citation shares | cumulative representation'da maksimum uzaklık |
+| Fang | citation-trajectory derivative | derivative threshold + smoothing |
+
+Kaynaklar: @ke2015sleeping, @du2018parameter, @fang2018derivative.
+
+Comparison space “uygulanabilecek bütün algoritmalar” değildir. Aynı boundary-localization görevini çözen, literature-grounded ve paper-specific deterministic boundary döndüren alternatiflerle sınırlandırılır. Bu, specification space'in hesaplanabilir olana değil **savunulabilir olana** göre tanımlanması ilkesidir. @young2018uncertainty @simonsohn2020specification
+
+## Ampirik sonuç zinciri
+
+M6'nın reported sonuçları öğrencinin dönem boyunca geri döneceği referans noktalarıdır:
+
+| Aşama | Bulgular |
+|---|---|
+| Boundary placement | pairwise exact agreement `%26.8–%41.2`; üç operator aynı boundary'yi yalnız `%17.3` vakada verdi |
+| Event-set reconstruction | boundary disagreement'ların `%95.1–%98.7`'si reconstructed event set'i değiştirdi |
+| Composition propagation | object-changing eligible comparisons'ın `%98.3–%98.8`'inde field veya doctype representation tam olarak eşit kalmadı |
+| Magnitude | median field JSD yaklaşık `0.024–0.040`; median doctype JSD `0.011–0.018` |
+| Calibration | yaygın object sensitivity, tipik compositional divergence'ın mutlaka reference-relative unusualness olduğu anlamına gelmedi |
+
+Dolayısıyla dersin ana ayrımlarından biri şudur:
+
+**incidence of change ≠ magnitude of change ≠ unusualness ≠ validity**
+
+## Teaching slice için beklenen şema
+
+Tam araştırma corpus'u yerine laboratuvarlarda instructor-provided küçük bir teaching slice kullanılabilir. Teaching slice aşağıdaki alanları içerecek şekilde hazırlanabilir:
+
+| Alan | Rol |
+|---|---|
+| `focal_paper_id` | focal paper anahtarı |
+| `publication_year` | focal publication year |
+| `citing_work_id` | citation event kaynağı |
+| `citing_year` | citing work year |
+| `citation_age` | relative temporal coordinate |
+| `annual_citations` | annual trajectory representation |
+| `citing_field` | composition attribute |
+| `document_type` | composition attribute |
+| `boundary_ke` | Ke reconstruction |
+| `boundary_duwu` | Du-Wu reconstruction |
+| `boundary_fang` | Fang reconstruction |
+
+Bu sayfa gerçek veri uydurmaz; teaching slice öğretim elemanı tarafından araştırma çıktılarından ayrıca sağlanır.
+
+## Öğrencinin vakaya yaklaşımı
+
+M6 “nasıl yapılması gerektiğinin cevabı” olarak değil, şu sorular için ortak testbed olarak kullanılır: Hangi input donduruldu? Hangi karar observation membership'i değiştirdi? Bir disagreement teknik implementation hatası mı, yoksa gerçek operationalization difference mı? Bir veri nesnesinin robust olması valid olduğu anlamına gelir mi? Hangi alternative specification karşılaştırmaya gerçekten dahildir?
+
+Tam metin ve analitik ek, öğretim elemanının belirleyeceği kapalı ders kanalı üzerinden dağıtılabilir; public site yalnız pedagojik vaka çerçevesini içerir.

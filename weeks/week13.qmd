@@ -1,0 +1,60 @@
+---
+title: "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+---
+
+## Haftanın akademik problemi
+
+Defensible comparison space; researcher degrees of freedom; no-code/low-code/code ve specification uncertainty.
+
+## Ders öncesi akademik okumalar
+
+- **Okuma A:** @simonsohn2020specification — Specification space'i theoretically justified, statistically valid ve non-redundant alternatives ile sınırlamak.
+- **Okuma B:** @young2017multimodel — Model/specification uncertainty'yi sistematik computational comparison olarak kavramak.
+
+::: {.anchor-card}
+**Okuma amacı:** iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.
+
+READ formunda `Claim → Evidence → Decision → Transfer` kaydı bırakın.
+:::
+
+[Okuma formunu aç]({{< var w13_reading_form >}}){.btn .btn-primary}
+
+
+## M6 Case Window
+
+::: {.case-card}
+M6'nın comparison space'i üç operator ile sınırlıdır çünkü hepsi aynı paper-specific boundary-localization görevini çözer. Ranking-only measures ve generic changepoint families aynı task'i aynı şekilde çözmediği için dışarıda bırakılır. Reported pairwise exact boundary agreement yalnız %26.8–%41.2; three-way exact agreement %17.3'tür. @yayla2026beforevalidation
+
+**Vaka sorusu:** Bir yöntemin aynı veriye uygulanabilmesi, onun aynı comparison space'e ait olması için yeterli midir?
+:::
+
+## Ders içi TRACE
+
+<div class="flow">
+Predict → Encounter → Probe → Explain → Decide → Verify → Consequence check
+</div>
+
+**Predict:** işlemden önce beklenen veri yapısını veya farkı yaz.  
+**Encounter:** işlemi seçilen araçla gerçekleştir.  
+**Probe:** makul bir alternative data decision veya specification uygula.  
+**Explain:** iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.  
+**Decide:** primary branch'i literatür ve araştırma amacıyla gerekçelendir.  
+**Verify:** teknik invariants + downstream consequence kontrolü üret.
+
+### Araç paleti
+
+En az iki yaklaşım: Power Query/KNIME/SQL/Python/R kombinasyonu
+
+Araç seçimi notlandırılan karmaşıklık düzeyi değildir; **problem–tool fit** gerekçelendirilir.
+
+## Ders sonrası pekiştirici eylem
+
+::: {.task-card}
+Final pipeline'ından bir kritik operation için **defensible comparison space** tanımla. En az iki implementation/specification karşılaştır. Aynı specification'ın iki araçtaki çıktısını eşdeğerlik açısından doğrula; sonra specification değiştiğinde değişen observation set veya summary'yi ayrı raporla.
+:::
+
+[TRACE ödev formunu aç]({{< var w13_task_form >}}){.btn .btn-success}
+
+## Teslim kanıtı
+
+Teslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.

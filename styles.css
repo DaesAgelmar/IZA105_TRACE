@@ -1,0 +1,72 @@
+:root {
+  --trace-border: #dfe3e8;
+  --trace-soft: #f7f8fa;
+  --trace-ink: #1f2937;
+  --case-soft: #f4f6f8;
+  --anchor-soft: #fbfbfc;
+}
+
+body {
+  line-height: 1.65;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.015em;
+}
+
+.trace-box,
+.case-card,
+.anchor-card,
+.task-card,
+.evidence-card {
+  border: 1px solid var(--trace-border);
+  border-radius: 0.75rem;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+}
+
+.trace-box {
+  background: var(--trace-soft);
+}
+
+.case-card {
+  background: var(--case-soft);
+  border-left: 5px solid #6c757d;
+}
+
+.anchor-card {
+  background: var(--anchor-soft);
+  border-left: 5px solid #adb5bd;
+}
+
+.task-card {
+  background: #fafafa;
+  border-left: 5px solid #495057;
+}
+
+.evidence-card {
+  background: #fff;
+  border-left: 5px solid #ced4da;
+}
+
+.small-note {
+  font-size: 0.92rem;
+  opacity: 0.82;
+}
+
+.flow {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+table {
+  font-size: 0.95rem;
+}
+
+.navbar-title {
+  font-weight: 650;
+}

@@ -1,0 +1,26 @@
+---
+title: "Aktif Katılım"
+---
+
+## Ne izleniyor?
+
+Katılım sistemi fiziksel devamı tek başına ölçmez. Her içerik haftasında öğrencinin **hazırlık, karar ve kanıt üretimine** ilişkin iki dijital iz bırakması beklenir:
+
+- **READ:** iki dış akademik okumadan `Claim → Evidence → Decision → Transfer`
+- **TASK:** TRACE uygulaması, workflow bağlantısı, doğrulama kanıtı ve akademik gerekçe
+
+Hafta 7 vize, Hafta 14 final haftasıdır.
+
+## M6 katılımı nasıl görünür olur?
+
+M6 üçüncü bir uzun özet ödevi değildir. Haftalık sayfadaki **M6 Case Window** derste ortak analiz nesnesi olarak kullanılır. TASK formundaki `Predict / Probe / Explain / Decide / Verify` yanıtları, öğrencinin vakada hangi veri kararını sınadığını görünür kılar.
+
+## Dashboard'un yorumu
+
+`KATILIM_OZET` tablosunda `1`, ilgili READ/TASK formunun teslim edildiğini gösterir. Bu işaret **yanıtın akademik kalitesini otomatik olarak puanlamaz**. Nitelik, haftalık görevdeki gerekçe, doğrulama ve consequence check üzerinden değerlendirilir.
+
+Öğrenci numarası ana eşleştirme anahtarıdır; e-posta iletişim metadata'sı olarak form yanıtından sonradan tamamlanabilir.
+
+## Öğretim elemanı için minimum kontrol
+
+Bir öğrencinin “aktif katıldı” sayılabilmesi için yalnız form göndermesi değil, haftanın veri kararını tanımlaması, en az bir doğrulama kanıtı üretmesi ve okumalardan en az birini bu karara bağlaması beklenir.

@@ -1,0 +1,70 @@
+---
+title: "Ders Rehberi"
+---
+
+## Dersin akademik amacı
+
+Bu dersin sonunda öğrenci yalnızca veri temizleyebilen veya birleştirebilen biri değil; **bir araştırma sorusu için gerekli veri nesnesini literatüre dayalı kararlarla kurabilen, bu kararların alternatiflerini görebilen ve ortaya çıkan nesneyi doğrulayabilen** bir araştırmacı olmalıdır.
+
+## Okuma mimarisi
+
+Her içerik haftasında iki dış akademik metin bulunur. Bunların rolleri farklıdır.
+
+**Okuma A — veri problemi / kuramsal çıpa.** Haftanın doğrudan veri sorununu tanımlar: tidy data, data quality, integration, provenance, temporal representation gibi.
+
+**Okuma B — epistemik sonuç çıpası.** Makul kararların farklı sonuçlar üretebileceğini, researcher degrees of freedom'u veya specification uncertainty'yi görünür kılar.
+
+Bunlara ek olarak **M6 Case Window** bulunur. M6 üçüncü bir tam-zorunlu makale gibi okunmaz; her hafta yalnız ilgili yöntem veya appendix kesiti ortak vaka olarak kullanılır.
+
+## Ders öncesi okuma kartı
+
+READ formunda öğrenci kısa ama analitik dört kayıt bırakır:
+
+1. **Claim:** İki dış okumanın haftanın veri problemi açısından en önemli iddiası nedir?
+2. **Evidence:** İddia hangi kanıt veya örnekle destekleniyor?
+3. **Decision:** Metinlerin işaret ettiği önemli veri/metodoloji kararı nedir?
+4. **Transfer:** Bu karar M6 vakasına veya başka bir araştırma problemine nasıl taşınabilir?
+
+Amaç makale özeti üretmek değil, **okumayı veri kararına bağlamaktır**.
+
+## M6 running case
+
+Dönem boyunca aynı araştırma zincirinin farklı katmanları incelenir:
+
+`SciSciNet source representation → frozen snapshot → candidate construction → citation-age representation → boundary operationalization → pre-transition event set → field/doctype composition → sensitivity & calibration`
+
+M6 özellikle şu ayrımı görünür kılar: **aynı sabit citation history üzerinde savunulabilir transition operationalization'lar farklı boundary'ler belirleyebilir ve böylece sonraki analizde kullanılan event set değişebilir**. @yayla2026beforevalidation
+
+## Araç politikası
+
+Araç karmaşıklığı bir başarı ölçütü değildir. Öğrencinin aracı problem için gerekçelendirmesi beklenir.
+
+| İhtiyaç | Olası araçlar |
+|---|---|
+| Hızlı tabular inspection / profiling | Excel |
+| Tekrarlanabilir GUI dönüşümü | Power Query |
+| String/kategori cleaning ve reconciliation | OpenRefine |
+| Görsel, modüler pipeline | KNIME |
+| Join, aggregation, relational query | SQL / DuckDB |
+| Özel mantık, API, otomasyon, yeniden üretilebilir analiz | Python / R |
+
+Bir haftada iki aracı birden kullanmak yalnız pedagojik olarak anlamlıysa zorunludur. **Tool parity sürekli değil, stratejiktir.**
+
+## TRACE + Consequence Check
+
+TRACE'in altı aşaması korunur:
+
+**Predict → Encounter → Probe → Explain → Decide → Verify**
+
+Ancak `Probe`, mümkün olduğunda teknik parametre değişikliğinden daha ileri götürülür: öğrenci **makul alternatif veri kararını** uygular. `Verify` ise iki soruyu ayırır:
+
+- İşlem teknik olarak doğru mu?
+- Alternatif karar downstream veri nesnesini veya basit bir sonucu değiştirdi mi?
+
+Bu ikinci soru, multiverse/specification literatürünü veri manipülasyonu dersine bağlayan köprüdür. @steegen2016multiverse @simonsohn2020specification
+
+## Haftalık teslimler
+
+Haftalık TASK teslimi dört kanıt üretmelidir: veri/workflow bağlantısı, kısa TRACE kaydı, en az bir doğrulama kontrolü ve kullanılan akademik okumanın veri kararını nasıl desteklediği. Uygun haftalarda buna **iki makul branch'in küçük bir consequence comparison'ı** eklenir.
+
+Bu haftalık parçalar final paketinin doğrudan bileşenidir; ayrı ve bağlantısız alıştırmalar değildir.
