@@ -1,0 +1,1620 @@
+[
+  {
+    "objectID": "weeks/week14.html",
+    "href": "weeks/week14.html",
+    "title": "Hafta 14 — Final — Research Data Preparation Package",
+    "section": "",
+    "text": "Dönem sentezi: veri nesnesi, sensitivity, verification ve bilimsel yorum sınırları.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 14 — Final — Research Data Preparation Package"
+    ]
+  },
+  {
+    "objectID": "weeks/week14.html#haftanın-akademik-problemi",
+    "href": "weeks/week14.html#haftanın-akademik-problemi",
+    "title": "Hafta 14 — Final — Research Data Preparation Package",
+    "section": "",
+    "text": "Dönem sentezi: veri nesnesi, sensitivity, verification ve bilimsel yorum sınırları.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 14 — Final — Research Data Preparation Package"
+    ]
+  },
+  {
+    "objectID": "weeks/week14.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week14.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 14 — Final — Research Data Preparation Package",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Wasserstein ve Lazar (2016) — Tek bir threshold veya summary’nin belirsizliği görünmez kılmaması gerektiğini sonuç yorumlama bağlamında düşünmek.\nOkuma B: Amrhein vd. (2019) — Dichotomous conclusion yerine effect/uncertainty ve evidence continuum’u dikkate alan bilimsel yorum disiplinini tartışmak.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nBu hafta ayrı READ formu yoktur. İki metin finaldeki yorumlama bölümüne doğrudan entegre edilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 14 — Final — Research Data Preparation Package"
+    ]
+  },
+  {
+    "objectID": "weeks/week14.html#m6-case-window",
+    "href": "weeks/week14.html#m6-case-window",
+    "title": "Hafta 14 — Final — Research Data Preparation Package",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6’nın final dersi şu ayrımdır: phase-membership sensitivity yaygın olabilir; continuous compositional divergence daha küçük olabilir; reference-relative unusualness ise daha da farklı bir sorudur. Robust/stable olmak da substantively valid olmak değildir. Yayla (2026)\nVaka sorusu: Bir data decision sonucu değiştirdiğinde bunu ‘analiz güvenilmez’ diye mi yorumlamalıyız, yoksa hangi inference’ın ne kadar decision-dependent olduğunu mu raporlamalıyız?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 14 — Final — Research Data Preparation Package"
+    ]
+  },
+  {
+    "objectID": "weeks/week14.html#ders-içi-trace",
+    "href": "weeks/week14.html#ders-içi-trace",
+    "title": "Hafta 14 — Final — Research Data Preparation Package",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nProblem hangi araç veya kombinasyonu gerektiriyorsa o\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 14 — Final — Research Data Preparation Package"
+    ]
+  },
+  {
+    "objectID": "weeks/week14.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week14.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 14 — Final — Research Data Preparation Package",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nFinal paketini teslim et. Decision Sensitivity Map içindeki en kritik branch’i gerçekten test et. Primary ve alternative data object için basit downstream sanity check üret. Sonuçları significant/non-significant gibi ikili dile indirgemeden, hangi sonucun hangi data decision’a bağlı olduğunu açıkla.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 14 — Final — Research Data Preparation Package"
+    ]
+  },
+  {
+    "objectID": "weeks/week14.html#teslim-kanıtı",
+    "href": "weeks/week14.html#teslim-kanıtı",
+    "title": "Hafta 14 — Final — Research Data Preparation Package",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 14 — Final — Research Data Preparation Package"
+    ]
+  },
+  {
+    "objectID": "weeks/week12.html",
+    "href": "weeks/week12.html",
+    "title": "Hafta 12 — Provenance, lineage ve implementation verification",
+    "section": "",
+    "text": "Raw/intermediate/curated layers; lineage; deterministic completion; failure points ve reproducibility.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 12 — Provenance, lineage ve implementation verification"
+    ]
+  },
+  {
+    "objectID": "weeks/week12.html#haftanın-akademik-problemi",
+    "href": "weeks/week12.html#haftanın-akademik-problemi",
+    "title": "Hafta 12 — Provenance, lineage ve implementation verification",
+    "section": "",
+    "text": "Raw/intermediate/curated layers; lineage; deterministic completion; failure points ve reproducibility.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 12 — Provenance, lineage ve implementation verification"
+    ]
+  },
+  {
+    "objectID": "weeks/week12.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week12.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 12 — Provenance, lineage ve implementation verification",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Simmhan vd. (2005) — Provenance’i data product’ın derivation history’si olarak kavramak.\nOkuma B: Schweinsberg vd. (2021) — Operationalization variation’ın aynı genel hypothesis altında sonuçları ne kadar dağıtabildiğini görmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 12 — Provenance, lineage ve implementation verification"
+    ]
+  },
+  {
+    "objectID": "weeks/week12.html#m6-case-window",
+    "href": "weeks/week12.html#m6-case-window",
+    "title": "Hafta 12 — Provenance, lineage ve implementation verification",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nAppendix A1 input hashes/snapshot ve cross-output reconciliation’ı; A6 ise source-grounded operator rules ile deterministic corpus-scale completion rules’ı ayırır. Implementation doğrulanmadan operator disagreement bilimsel olarak yorumlanmaz. Yayla (2026)\nVaka sorusu: İki pipeline farklı sonuç ürettiğinde ilk sorunuz ‘hangi sonuç doğru?’ mu olmalı, yoksa ‘implementation aynı specification’ı mı uyguladı?’ mı?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 12 — Provenance, lineage ve implementation verification"
+    ]
+  },
+  {
+    "objectID": "weeks/week12.html#ders-içi-trace",
+    "href": "weeks/week12.html#ders-içi-trace",
+    "title": "Hafta 12 — Provenance, lineage ve implementation verification",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nPower Query/KNIME/script + Git veya dosya hash’leri\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 12 — Provenance, lineage ve implementation verification"
+    ]
+  },
+  {
+    "objectID": "weeks/week12.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week12.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 12 — Provenance, lineage ve implementation verification",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nFinal pipeline’ın lineage graph’ını çıkar. Bir schema/type/key değişikliğini kasıtlı boz ve pipeline’ın nerede fail/silent fail verdiğini gözle. En az iki validation guard ekle. Bir kritik operation’ı bağımsız biçimde yeniden hesaplayarak implementation verification yap.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 12 — Provenance, lineage ve implementation verification"
+    ]
+  },
+  {
+    "objectID": "weeks/week12.html#teslim-kanıtı",
+    "href": "weeks/week12.html#teslim-kanıtı",
+    "title": "Hafta 12 — Provenance, lineage ve implementation verification",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 12 — Provenance, lineage ve implementation verification"
+    ]
+  },
+  {
+    "objectID": "weeks/week10.html",
+    "href": "weeks/week10.html",
+    "title": "Hafta 10 — Zamansal veri: observation window ve event time",
+    "section": "",
+    "text": "Snapshot, temporal scope, event time/processing time, late data ve observation-horizon sensitivity.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 10 — Zamansal veri: observation window ve event time"
+    ]
+  },
+  {
+    "objectID": "weeks/week10.html#haftanın-akademik-problemi",
+    "href": "weeks/week10.html#haftanın-akademik-problemi",
+    "title": "Hafta 10 — Zamansal veri: observation window ve event time",
+    "section": "",
+    "text": "Snapshot, temporal scope, event time/processing time, late data ve observation-horizon sensitivity.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 10 — Zamansal veri: observation window ve event time"
+    ]
+  },
+  {
+    "objectID": "weeks/week10.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week10.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 10 — Zamansal veri: observation window ve event time",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Akidau vd. (2015) — Event time, out-of-order data ve correctness kavramlarını temporal data processing içinde görmek.\nOkuma B: Webb ve Demeyere (2023) — Study-design ve analytic decisions’ın aynı veri üzerinde outcome variation üretebildiğini uygulamalı görmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 10 — Zamansal veri: observation window ve event time"
+    ]
+  },
+  {
+    "objectID": "weeks/week10.html#m6-case-window",
+    "href": "weeks/week10.html#m6-case-window",
+    "title": "Hafta 10 — Zamansal veri: observation window ve event time",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nPrimary horizon H=30’dur; H=25 ve H=35 prespecified sensitivity olarak test edilir. Appendix’te boundary stability operator’e göre farklıdır: Fang jointly resolved cases’te değişmezken Du-Wu daha düşük exact agreement gösterir. Bu, observation window’un nötr bir teknik ayar olmadığını gösterir. Yayla (2026)\nVaka sorusu: Bir time window değiştirdiğinizde daha fazla veri mi ekliyorsunuz, yoksa ölçüm nesnesini yeniden mi tanımlıyorsunuz?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 10 — Zamansal veri: observation window ve event time"
+    ]
+  },
+  {
+    "objectID": "weeks/week10.html#ders-içi-trace",
+    "href": "weeks/week10.html#ders-içi-trace",
+    "title": "Hafta 10 — Zamansal veri: observation window ve event time",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nPower Query refresh, SQL date functions, KNIME veya Python/R\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 10 — Zamansal veri: observation window ve event time"
+    ]
+  },
+  {
+    "objectID": "weeks/week10.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week10.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 10 — Zamansal veri: observation window ve event time",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nBir temporal veri setinde primary window ve iki plausible alternative window tanımla. Aynı summary/derived object’i üç window’da üret. Predict hangi kayıtların değişeceğini yaz; Verify overlap ve unique-event sayılarını reconcile et.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 10 — Zamansal veri: observation window ve event time"
+    ]
+  },
+  {
+    "objectID": "weeks/week10.html#teslim-kanıtı",
+    "href": "weeks/week10.html#teslim-kanıtı",
+    "title": "Hafta 10 — Zamansal veri: observation window ve event time",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 10 — Zamansal veri: observation window ve event time"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html",
+    "href": "weeks/week08.html",
+    "title": "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır",
+    "section": "",
+    "text": "Keys, identifiers, cardinality, unmatched cases, schema matching ve entity resolution.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#haftanın-akademik-problemi",
+    "href": "weeks/week08.html#haftanın-akademik-problemi",
+    "title": "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır",
+    "section": "",
+    "text": "Keys, identifiers, cardinality, unmatched cases, schema matching ve entity resolution.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week08.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Rahm ve Bernstein (2001) — Schema matching’i heterojen data sources arasında semantik/teknik eşleştirme problemi olarak görmek.\nOkuma B: Silberzahn vd. (2018) — Aynı veri ve genel hipotez üzerinde analistlerin farklı operationalization ve sonuçlara ulaşabildiğini görmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#m6-case-window",
+    "href": "weeks/week08.html#m6-case-window",
+    "title": "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6’daki composition analizi focal paper, citing work, citation age, field ve document type bilgilerini aynı event object üzerinde birleştirir. Yanlış many-to-many join veya eksik key, phase membership doğru olsa bile downstream composition’ı değiştirebilir. Yayla (2026)\nVaka sorusu: Bir join’in çalışması, eşleştirilen kayıtların aynı entity’yi temsil ettiğini kanıtlar mı?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#ders-içi-trace",
+    "href": "weeks/week08.html#ders-içi-trace",
+    "title": "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nPower Query Merge, KNIME Joiner, SQL/DuckDB, pandas/R\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week08.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nİki heterojen kaynağı bütünleştir. Predict: join cardinality ve beklenen row count. Probe: yanlış/alternatif join veya normalized key. Verify: unmatched, duplicate-key ve row reconciliation raporu. Consequence check: iki join rule’un sample/composition üzerindeki farkını göster.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week08.html#teslim-kanıtı",
+    "href": "weeks/week08.html#teslim-kanıtı",
+    "title": "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 08 — Veri entegrasyonu: join bir eşdeğerlik iddiasıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week06.html",
+    "href": "weeks/week06.html",
+    "title": "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline",
+    "section": "",
+    "text": "Type conversion, recoding, derived variables, aggregation, pivot; dönüşümün ölçüm nesnesini kurması.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+    ]
+  },
+  {
+    "objectID": "weeks/week06.html#haftanın-akademik-problemi",
+    "href": "weeks/week06.html#haftanın-akademik-problemi",
+    "title": "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline",
+    "section": "",
+    "text": "Type conversion, recoding, derived variables, aggregation, pivot; dönüşümün ölçüm nesnesini kurması.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+    ]
+  },
+  {
+    "objectID": "weeks/week06.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week06.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Baumer vd. (2014) — Dönüşüm zincirini yeniden üretilebilir hesaplamalı dokümantasyonla bütünleştirmek.\nOkuma B: Gelman ve Loken (2014) — Analiz yolunun çok sayıda makul karara ayrılabileceğini ve sonucu gördükten sonra verilen kararların riskini anlamak.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+    ]
+  },
+  {
+    "objectID": "weeks/week06.html#m6-case-window",
+    "href": "weeks/week06.html#m6-case-window",
+    "title": "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6’da üç operator aynı source trajectory’yi farklı representation’larla işler: Ke annual counts, Du-Wu cumulative citation shares, Fang ise derivative representation kullanır. Dönüşüm yalnız format değişikliği değil; transition boundary’nin nasıl ölçülebilir hâle getirileceğini belirler. Ke vd. (2015) Du ve Wu (2018) Fang (2018)\nVaka sorusu: Bir transform ne zaman veri mühendisliği adımı olmaktan çıkıp construct operationalization hâline gelir?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+    ]
+  },
+  {
+    "objectID": "weeks/week06.html#ders-içi-trace",
+    "href": "weeks/week06.html#ders-içi-trace",
+    "title": "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nPower Query/KNIME/Python/R; araç seçimi serbest\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+    ]
+  },
+  {
+    "objectID": "weeks/week06.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week06.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nEn az beş aşamalı Transformation Contract oluştur: input assumption → operation → expected output → validation. En az bir derived variable için iki makul operationalization düşün; primary olanı sonucu görmeden gerekçelendir ve alternatifini sensitivity branch olarak kaydet.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+    ]
+  },
+  {
+    "objectID": "weeks/week06.html#teslim-kanıtı",
+    "href": "weeks/week06.html#teslim-kanıtı",
+    "title": "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 06 — Dönüştürme, operationalization ve yeniden üretilebilir pipeline"
+    ]
+  },
+  {
+    "objectID": "weeks/week04.html",
+    "href": "weeks/week04.html",
+    "title": "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam",
+    "section": "",
+    "text": "Completeness, accuracy, consistency, timeliness, relevance ve contextual fitness-for-use.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam"
+    ]
+  },
+  {
+    "objectID": "weeks/week04.html#haftanın-akademik-problemi",
+    "href": "weeks/week04.html#haftanın-akademik-problemi",
+    "title": "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam",
+    "section": "",
+    "text": "Completeness, accuracy, consistency, timeliness, relevance ve contextual fitness-for-use.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam"
+    ]
+  },
+  {
+    "objectID": "weeks/week04.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week04.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Wang ve Strong (1996) — Data quality’yi accuracy’nin ötesinde kullanıcı ve kullanım bağlamına bağlı çok boyutlu bir yapı olarak ele almak.\nOkuma B: Haug (2021) — Data-quality sınıflamalarının neden farklılaştığını ve boyutların bağlama göre nasıl seçileceğini görmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam"
+    ]
+  },
+  {
+    "objectID": "weeks/week04.html#m6-case-window",
+    "href": "weeks/week04.html#m6-case-window",
+    "title": "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nAppendix A7’de valid H30 citation event sayısı 455,743; document-type coverage %100 ve citing-work dominant Level-0 field coverage %99.997 olarak reconcile edilir. Fakat yüksek metadata coverage, transition boundary’nin substantively valid olduğunu göstermez. Yayla (2026)\nVaka sorusu: Coverage yüksek olduğunda veri ‘iyi’ midir, yoksa yalnız belirli kalite boyutunda mı güçlüdür?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam"
+    ]
+  },
+  {
+    "objectID": "weeks/week04.html#ders-içi-trace",
+    "href": "weeks/week04.html#ders-içi-trace",
+    "title": "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nExcel profiling, KNIME, OpenRefine, Python/R\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam"
+    ]
+  },
+  {
+    "objectID": "weeks/week04.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week04.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nBir veri seti için Data Quality Matrix hazırla. En az beş boyutu ölçülebilir göstergelere dönüştür ve her göstergeyi belirli bir intended use’a bağla. Probe: intended use’u değiştir ve aynı veri için kalite hükmünün değişip değişmediğini göster.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam"
+    ]
+  },
+  {
+    "objectID": "weeks/week04.html#teslim-kanıtı",
+    "href": "weeks/week04.html#teslim-kanıtı",
+    "title": "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 04 — Veri kalitesi: amaca uygunluk ve bağlam"
+    ]
+  },
+  {
+    "objectID": "weeks/week02.html",
+    "href": "weeks/week02.html",
+    "title": "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni",
+    "section": "",
+    "text": "Wide/long/tidy; observation unit; granularity; representation ile araştırma sorusu arasındaki ilişki.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+    ]
+  },
+  {
+    "objectID": "weeks/week02.html#haftanın-akademik-problemi",
+    "href": "weeks/week02.html#haftanın-akademik-problemi",
+    "title": "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni",
+    "section": "",
+    "text": "Wide/long/tidy; observation unit; granularity; representation ile araştırma sorusu arasındaki ilişki.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+    ]
+  },
+  {
+    "objectID": "weeks/week02.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week02.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Wickham (2014) — Tidy data ilkelerini observation-variable-value ilişkisi üzerinden kurmak.\nOkuma B: Broman ve Woo (2018) — Spreadsheet organizasyonunun hata üretimini ve downstream analizi nasıl etkilediğini görmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+    ]
+  },
+  {
+    "objectID": "weeks/week02.html#m6-case-window",
+    "href": "weeks/week02.html#m6-case-window",
+    "title": "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6’da citation event; citation_age, citing-work field ve document type ile temsil edilir. Boundary daha sonra hangi event’lerin pre-transition phase’e ait olduğunu belirler. Yani aynı scholarly record, araştırma sorusuna göre event-level yeni bir analitik nesneye dönüştürülür. Yayla (2026)\nVaka sorusu: Aynı source record’u paper-level, year-level veya citation-event-level temsil etmek hangi soruları mümkün veya imkânsız kılar?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+    ]
+  },
+  {
+    "objectID": "weeks/week02.html#ders-içi-trace",
+    "href": "weeks/week02.html#ders-içi-trace",
+    "title": "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nExcel/Power Query, KNIME Pivot/Unpivot, pandas veya tidyr\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+    ]
+  },
+  {
+    "objectID": "weeks/week02.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week02.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nDağınık bir tabloyu tidy hâle getir ve aynı verinin ikinci, fakat araştırma açısından meşru bir temsilini üret. İki representation için observation unit’i açıkça yaz. Verify: observation count ve kritik toplamları reconcile et. Consequence check: iki temsilin aynı soruya cevap vermediğini bir örnek üzerinden göster.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+    ]
+  },
+  {
+    "objectID": "weeks/week02.html#teslim-kanıtı",
+    "href": "weeks/week02.html#teslim-kanıtı",
+    "title": "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 02 — Tidy Data, gözlem birimi ve veri düzeni"
+    ]
+  },
+  {
+    "objectID": "trace.html",
+    "href": "trace.html",
+    "title": "TRACE",
+    "section": "",
+    "text": "TRACE bu derste yalnız bir laboratuvar sırası değil; veri kararının önceden ifade edilmesini, alternatifinin sınanmasını ve sonucunun belgelenmesini sağlayan çalışma protokolüdür.",
+    "crumbs": [
+      "Ana Sayfa",
+      "TRACE"
+    ]
+  },
+  {
+    "objectID": "trace.html#consequence-check",
+    "href": "trace.html#consequence-check",
+    "title": "TRACE",
+    "section": "Consequence Check",
+    "text": "Consequence Check\nTRACE’in harflerini değiştirmiyoruz. Ancak özellikle Probe → Explain → Verify arasında şu ek soruyu soruyoruz:\n\nMakul alternatif karar yalnız kodu mu değiştiriyor, yoksa analize girecek ampirik nesneyi de değiştiriyor mu?\n\nBu soru Steegen vd. (2016), Silberzahn vd. (2018), Schweinsberg vd. (2021) ve Simonsohn vd. (2020) tarafından görünür kılınan specification uncertainty problemini data preparation düzeyine taşır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "TRACE"
+    ]
+  },
+  {
+    "objectID": "trace.html#m6-üzerinde-trace",
+    "href": "trace.html#m6-üzerinde-trace",
+    "title": "TRACE",
+    "section": "M6 üzerinde TRACE",
+    "text": "M6 üzerinde TRACE\nM6 vakasında aynı sabit citation histories üzerinde üç literature-grounded transition operator karşılaştırılır. Operatörler farklı boundary’ler üretebildiği için Probe yalnız bir parametre deneyi değildir; hangi citation event’lerin pre-transition phase’e gireceğini değiştiren ölçüm kararıdır. Yayla (2026b)\n\nÖnemli ayrım: implementation verification ile substantive validity aynı değildir.\nM6 Appendix A6, operator implementasyonlarının belirtilen kurallara uyduğunu test eder. Bu, kodun doğru uygulandığını gösterir; fakat seçilen boundary’nin “gerçek” awakening time olduğunu kanıtlamaz. Yayla (2026a)",
+    "crumbs": [
+      "Ana Sayfa",
+      "TRACE"
+    ]
+  },
+  {
+    "objectID": "trace.html#ders-boyunca-kabul-edilen-doğrulama-türleri",
+    "href": "trace.html#ders-boyunca-kabul-edilen-doğrulama-türleri",
+    "title": "TRACE",
+    "section": "Ders boyunca kabul edilen doğrulama türleri",
+    "text": "Ders boyunca kabul edilen doğrulama türleri\nDoğrulama sadece “çıktı oluştu” değildir. Row-count reconciliation, key uniqueness, schema/type kontrolleri, missingness, range/logic constraints, source-to-output totals, deterministic rerun, checksum/hash ve iki bağımsız implementation’ın eşdeğerlik kontrolü gibi kanıtlar kullanılabilir.\nM6 running case bu ayrımı tekrar tekrar gösterir: boundary displacement, event-set change, composition change ve reference-relative unusualness aynı şey değildir. Dolayısıyla bir sonraki sonuca geçmeden önce bir önceki veri nesnesi ayrıca doğrulanır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "TRACE"
+    ]
+  },
+  {
+    "objectID": "m6-case.html",
+    "href": "m6-case.html",
+    "title": "M6 Running Case",
+    "section": "",
+    "text": "Ders boyunca ortak örnek olay olarak Yayla (2026b) kullanılır. Çalışmanın temel sorusu, farklı fakat savunulabilir transition operationalization’ların aynı sabit citation history üzerinde aynı pre-transition phase’i yeniden kurup kurmadığıdır.\nBu vaka İZA105 için uygundur çünkü veri manipülasyonunun sonradan yapılan nötr bir temizlik aşaması olmadığını somutlaştırır. Boundary’nin konumu değiştiğinde, sonraki analizde yer alan citation event’lerin üyeliği de değişebilir.\n\n\nSabit tutulan: candidate membership + citation histories\nDeğiştirilen: transition operationalization\nİzlenen yayılım: boundary → event-set membership → field/doctype composition → calibration\nBu tasarım, “farklı sonuç veri yüzünden mi, yöntem yüzünden mi?” sorusunu mümkün olduğunca kontrollü biçimde ayrıştırır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "M6 Running Case"
+    ]
+  },
+  {
+    "objectID": "m6-case.html#neden-bu-vaka",
+    "href": "m6-case.html#neden-bu-vaka",
+    "title": "M6 Running Case",
+    "section": "",
+    "text": "Ders boyunca ortak örnek olay olarak Yayla (2026b) kullanılır. Çalışmanın temel sorusu, farklı fakat savunulabilir transition operationalization’ların aynı sabit citation history üzerinde aynı pre-transition phase’i yeniden kurup kurmadığıdır.\nBu vaka İZA105 için uygundur çünkü veri manipülasyonunun sonradan yapılan nötr bir temizlik aşaması olmadığını somutlaştırır. Boundary’nin konumu değiştiğinde, sonraki analizde yer alan citation event’lerin üyeliği de değişebilir.\n\n\nSabit tutulan: candidate membership + citation histories\nDeğiştirilen: transition operationalization\nİzlenen yayılım: boundary → event-set membership → field/doctype composition → calibration\nBu tasarım, “farklı sonuç veri yüzünden mi, yöntem yüzünden mi?” sorusunu mümkün olduğunca kontrollü biçimde ayrıştırır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "M6 Running Case"
+    ]
+  },
+  {
+    "objectID": "m6-case.html#donmuş-ampirik-nesne",
+    "href": "m6-case.html#donmuş-ampirik-nesne",
+    "title": "M6 Running Case",
+    "section": "Donmuş ampirik nesne",
+    "text": "Donmuş ampirik nesne\nAnalitik ekte kaynak representation ve çalışma tasarımı ayrı tutulur. SciSciNet-v2 kaynak representation’ı sağlar; bunun 7 Eylül 2026 tarihli bir snapshot olarak dondurulması ise araştırma tasarımı kararıdır. Primary horizon H = 30, publication window 1980–1994, candidate count N = 1,351’dir. Yayla (2026a)\nBu ayrım ders boyunca tekrar kullanılır:\nsource data ≠ frozen input ≠ analysis-ready object ≠ substantive phenomenon",
+    "crumbs": [
+      "Ana Sayfa",
+      "M6 Running Case"
+    ]
+  },
+  {
+    "objectID": "m6-case.html#comparison-space",
+    "href": "m6-case.html#comparison-space",
+    "title": "M6 Running Case",
+    "section": "Comparison space",
+    "text": "Comparison space\nÜç operator aynı analitik görevi çözer:\n\n\n\n\n\n\n\n\nOperator\nTemsil\nBoundary ilkesi\n\n\n\n\nKe et al.\nannual citation counts\nreference line’a maksimum dik uzaklık\n\n\nDu & Wu\ncumulative citation shares\ncumulative representation’da maksimum uzaklık\n\n\nFang\ncitation-trajectory derivative\nderivative threshold + smoothing\n\n\n\nKaynaklar: Ke vd. (2015), Du ve Wu (2018), Fang (2018).\nComparison space “uygulanabilecek bütün algoritmalar” değildir. Aynı boundary-localization görevini çözen, literature-grounded ve paper-specific deterministic boundary döndüren alternatiflerle sınırlandırılır. Bu, specification space’in hesaplanabilir olana değil savunulabilir olana göre tanımlanması ilkesidir. Young (2018) Simonsohn vd. (2020)",
+    "crumbs": [
+      "Ana Sayfa",
+      "M6 Running Case"
+    ]
+  },
+  {
+    "objectID": "m6-case.html#ampirik-sonuç-zinciri",
+    "href": "m6-case.html#ampirik-sonuç-zinciri",
+    "title": "M6 Running Case",
+    "section": "Ampirik sonuç zinciri",
+    "text": "Ampirik sonuç zinciri\nM6’nın reported sonuçları öğrencinin dönem boyunca geri döneceği referans noktalarıdır:\n\n\n\n\n\n\n\nAşama\nBulgular\n\n\n\n\nBoundary placement\npairwise exact agreement %26.8–%41.2; üç operator aynı boundary’yi yalnız %17.3 vakada verdi\n\n\nEvent-set reconstruction\nboundary disagreement’ların %95.1–%98.7’si reconstructed event set’i değiştirdi\n\n\nComposition propagation\nobject-changing eligible comparisons’ın %98.3–%98.8’inde field veya doctype representation tam olarak eşit kalmadı\n\n\nMagnitude\nmedian field JSD yaklaşık 0.024–0.040; median doctype JSD 0.011–0.018\n\n\nCalibration\nyaygın object sensitivity, tipik compositional divergence’ın mutlaka reference-relative unusualness olduğu anlamına gelmedi\n\n\n\nDolayısıyla dersin ana ayrımlarından biri şudur:\nincidence of change ≠ magnitude of change ≠ unusualness ≠ validity",
+    "crumbs": [
+      "Ana Sayfa",
+      "M6 Running Case"
+    ]
+  },
+  {
+    "objectID": "m6-case.html#teaching-slice-için-beklenen-şema",
+    "href": "m6-case.html#teaching-slice-için-beklenen-şema",
+    "title": "M6 Running Case",
+    "section": "Teaching slice için beklenen şema",
+    "text": "Teaching slice için beklenen şema\nTam araştırma corpus’u yerine laboratuvarlarda instructor-provided küçük bir teaching slice kullanılabilir. Teaching slice aşağıdaki alanları içerecek şekilde hazırlanabilir:\n\n\n\nAlan\nRol\n\n\n\n\nfocal_paper_id\nfocal paper anahtarı\n\n\npublication_year\nfocal publication year\n\n\nciting_work_id\ncitation event kaynağı\n\n\nciting_year\nciting work year\n\n\ncitation_age\nrelative temporal coordinate\n\n\nannual_citations\nannual trajectory representation\n\n\nciting_field\ncomposition attribute\n\n\ndocument_type\ncomposition attribute\n\n\nboundary_ke\nKe reconstruction\n\n\nboundary_duwu\nDu-Wu reconstruction\n\n\nboundary_fang\nFang reconstruction\n\n\n\nBu sayfa gerçek veri uydurmaz; teaching slice öğretim elemanı tarafından araştırma çıktılarından ayrıca sağlanır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "M6 Running Case"
+    ]
+  },
+  {
+    "objectID": "m6-case.html#öğrencinin-vakaya-yaklaşımı",
+    "href": "m6-case.html#öğrencinin-vakaya-yaklaşımı",
+    "title": "M6 Running Case",
+    "section": "Öğrencinin vakaya yaklaşımı",
+    "text": "Öğrencinin vakaya yaklaşımı\nM6 “nasıl yapılması gerektiğinin cevabı” olarak değil, şu sorular için ortak testbed olarak kullanılır: Hangi input donduruldu? Hangi karar observation membership’i değiştirdi? Bir disagreement teknik implementation hatası mı, yoksa gerçek operationalization difference mı? Bir veri nesnesinin robust olması valid olduğu anlamına gelir mi? Hangi alternative specification karşılaştırmaya gerçekten dahildir?\nTam metin ve analitik ek, öğretim elemanının belirleyeceği kapalı ders kanalı üzerinden dağıtılabilir; public site yalnız pedagojik vaka çerçevesini içerir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "M6 Running Case"
+    ]
+  },
+  {
+    "objectID": "final-project.html",
+    "href": "final-project.html",
+    "title": "Final Projesi",
+    "section": "",
+    "text": "Bir ampirik akademik çalışmanın analizini mümkün kılacak veri malzemesini yeniden üretilebilir biçimde hazırlamak. Finalin nesnesi istatistiksel model değil, analize girecek veri nesnesinin üretim zinciridir.\nM6 bu final için bir tasarım örneği sağlar: source representation sabitlenir, analitik seçimler ayrıştırılır, dönüşümlerin observation membership’e yayılımı izlenir ve implementation correctness ile substantive validity birbirine karıştırılmaz. Yayla (2026)",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "final-project.html#amaç",
+    "href": "final-project.html#amaç",
+    "title": "Final Projesi",
+    "section": "",
+    "text": "Bir ampirik akademik çalışmanın analizini mümkün kılacak veri malzemesini yeniden üretilebilir biçimde hazırlamak. Finalin nesnesi istatistiksel model değil, analize girecek veri nesnesinin üretim zinciridir.\nM6 bu final için bir tasarım örneği sağlar: source representation sabitlenir, analitik seçimler ayrıştırılır, dönüşümlerin observation membership’e yayılımı izlenir ve implementation correctness ile substantive validity birbirine karıştırılmaz. Yayla (2026)",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "final-project.html#proje-türleri",
+    "href": "final-project.html#proje-türleri",
+    "title": "Final Projesi",
+    "section": "Proje türleri",
+    "text": "Proje türleri\nÖğrenci dönem içinde üç yoldan birini seçebilir:\nReconstruction: hedef makalenin tarif ettiği analysis-ready veri nesnesini mümkün olduğunca yeniden kurmak.\nReplication-ready preparation: açık/yeniden edinilebilir ham kaynaklardan başlayarak makalenin analizine girecek veri setini üretmek.\nConceptual extension: aynı araştırma sorusunu başka zaman, ülke, kurum veya veri kaynağında test etmeye uygun veri paketini hazırlamak.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "final-project.html#zorunlu-final-bileşenleri",
+    "href": "final-project.html#zorunlu-final-bileşenleri",
+    "title": "Final Projesi",
+    "section": "Zorunlu final bileşenleri",
+    "text": "Zorunlu final bileşenleri\n\n\n\n\n\n\n\nBileşen\nBeklenen çıktı\n\n\n\n\nHedef çalışma ve analitik amaç\nAraştırma sorusu + gerekli observation unit\n\n\nSource inventory\nKaynak, sürüm/tarih, erişim ve kapsam\n\n\nAcquisition log\nVerinin nasıl yeniden edinileceği\n\n\nRaw/source references\nPaylaşılamıyorsa yeniden edinme talimatı\n\n\nData dictionary\nAlanların anlamı, tipi ve rolü\n\n\nTransformation specification\nHer kritik dönüşümün gerekçesi\n\n\nExecutable workflow\nSeçilen araç(lar)la yeniden çalıştırılabilir pipeline\n\n\nAnalysis-ready dataset\nModellemeye hazır son veri nesnesi\n\n\nValidation report\nN, keys, missingness, ranges, invariants, reconciliation\n\n\nLineage/provenance map\nSource → intermediate → curated\n\n\nGovernance & reuse note\nLisans, gizlilik, minimization, paylaşım\n\n\nDecision Sensitivity Map\nMakul alternatif veri kararları ve olası etkileri\n\n\nTested branch\nEn kritik kararlardan en az birinin iki versiyonunun ampirik karşılaştırması\n\n\nUnresolved issue\nÇözülemeyen veri sorunu/varsayım ve etkisi\n\n\nREADME\nBaşka araştırmacının paketi yeniden kurması için talimat\n\n\nSanity check\nBasit N/tablo/grafik; model replikasyonu değil",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "final-project.html#decision-sensitivity-map",
+    "href": "final-project.html#decision-sensitivity-map",
+    "title": "Final Projesi",
+    "section": "Decision Sensitivity Map",
+    "text": "Decision Sensitivity Map\nÖğrenci en az dört önemli data decision belirler:\n\n\n\n\n\n\n\n\n\n\nKarar\nPrimary choice\nPlausible alternative\nBeklenen etki\nTest edildi mi?\n\n\n\n\nMissing data\ncomplete case\nimputation / explicit missing\nyüksek\nevet/hayır\n\n\nEntity matching\nexact\nnormalized/fuzzy\nyüksek\nevet/hayır\n\n\nObservation window\n2018–2026\n2020–2026\norta\nevet/hayır\n\n\nCategory coding\ndetailed\naggregated\norta\nevet/hayır\n\n\n\nBu tablo, “her şeyi dene” multiverse’ü değildir. Alternative branch’ler teorik ve veri yapısı açısından savunulabilir comparison space içinde olmalıdır. Simonsohn vd. (2020) Young (2018)",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "final-project.html#tested-branch",
+    "href": "final-project.html#tested-branch",
+    "title": "Final Projesi",
+    "section": "Tested branch",
+    "text": "Tested branch\nHaritadaki en kritik kararlardan en az biri gerçekten uygulanır. İki branch sonrasında küçük bir downstream quantity karşılaştırılır. Amaç p-değerini değiştirmek değil; data decision’ın empirical object veya temel özet üzerindeki etkisini gözlemlemektir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "final-project.html#m6dan-transfer-edilen-dört-disiplin",
+    "href": "final-project.html#m6dan-transfer-edilen-dört-disiplin",
+    "title": "Final Projesi",
+    "section": "M6’dan transfer edilen dört disiplin",
+    "text": "M6’dan transfer edilen dört disiplin\nM6’nın final için önemli dersi sonuçlarını kopyalamak değil, araştırma mantığını taşımaktır:\n\nInput representation’ı dondur veya sürümle.\nCandidate/sample construction ile downstream operationalization’ı ayır.\nImplementation discrepancy ile substantive difference’ı ayır.\nChange incidence, magnitude, calibration ve validity’yi aynı kavram gibi raporlama.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "final-project.html#sanity-check-sınırı",
+    "href": "final-project.html#sanity-check-sınırı",
+    "title": "Final Projesi",
+    "section": "Sanity check sınırı",
+    "text": "Sanity check sınırı\nFinal bir istatistiksel modelleme dersi finaline dönüşmemelidir. Basit descriptive statistics, cross-tab, correlation veya küçük grafik yalnız analysis-ready oluşu ve branch consequence’ını göstermek için kullanılır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Final Projesi"
+    ]
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "Değerlendirme",
+    "section": "",
+    "text": "Resmî 40/60 ağırlığı korunur:\n\n\n\n\n\n\n\n\nDeğerlendirme\nAğırlık\nFormat\n\n\n\n\nVize — Veri Hazırlama Denetimi\n%40\nTake-home audit\n\n\nFinal — Research Data Preparation Package\n%60\nDönem boyunca geliştirilen veri paketi\n\n\n\nHaftalık READ/TASK çalışmaları bu iki teslimin hazırlık artefaktlarıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Değerlendirme"
+    ]
+  },
+  {
+    "objectID": "assessment.html#genel-yapı",
+    "href": "assessment.html#genel-yapı",
+    "title": "Değerlendirme",
+    "section": "",
+    "text": "Resmî 40/60 ağırlığı korunur:\n\n\n\n\n\n\n\n\nDeğerlendirme\nAğırlık\nFormat\n\n\n\n\nVize — Veri Hazırlama Denetimi\n%40\nTake-home audit\n\n\nFinal — Research Data Preparation Package\n%60\nDönem boyunca geliştirilen veri paketi\n\n\n\nHaftalık READ/TASK çalışmaları bu iki teslimin hazırlık artefaktlarıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Değerlendirme"
+    ]
+  },
+  {
+    "objectID": "assessment.html#vize-hafta-7",
+    "href": "assessment.html#vize-hafta-7",
+    "title": "Değerlendirme",
+    "section": "Vize — Hafta 7",
+    "text": "Vize — Hafta 7\nÖğrenci daha önce görmediği veya final projesine aday bir veri üzerinde şu zinciri kurar:\nSource → Quality → Cleaning → Transformation → Alternative branch → Verification\nVizede en az üç önceki akademik okuma somut kararlara bağlanır. En az bir veri kararı için iki savunulabilir alternatif uygulanır ve küçük bir downstream quantity’nin değişip değişmediği gösterilir.\nTam modelleme beklenmez. Örneğin N, missing oranı, kategori dağılımı, grup ortalaması, oran veya basit correlation yeterli olabilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Değerlendirme"
+    ]
+  },
+  {
+    "objectID": "assessment.html#m6nın-vizedeki-rolü",
+    "href": "assessment.html#m6nın-vizedeki-rolü",
+    "title": "Değerlendirme",
+    "section": "M6’nın vizedeki rolü",
+    "text": "M6’nın vizedeki rolü\nM6 bir ezber sorusu değildir. Öğrenci M6’nın mantığından şu tasarım disiplinini taşır: aynı input üzerinde ne sabit tutuldu, ne değiştirildi ve fark hangi veri nesnesine yayıldı? Yayla (2026)",
+    "crumbs": [
+      "Ana Sayfa",
+      "Değerlendirme"
+    ]
+  },
+  {
+    "objectID": "assessment.html#final-değerlendirme-mantığı",
+    "href": "assessment.html#final-değerlendirme-mantığı",
+    "title": "Değerlendirme",
+    "section": "Final değerlendirme mantığı",
+    "text": "Final değerlendirme mantığı\nFinal yalnız “çalışan pipeline” değildir. Değerlendirme dört boyutu birlikte dikkate alır:\n\n\n\n\n\n\n\nBoyut\nTemel soru\n\n\n\n\nConstruction\nAnalize hazır veri nesnesi açık ve savunulabilir biçimde üretildi mi?\n\n\nTraceability\nKaynaktan son çıktıya karar ve dönüşüm zinciri izlenebiliyor mu?\n\n\nVerification\nKritik iddialar somut kontrollerle doğrulandı mı?\n\n\nSensitivity\nEn kritik veri kararlarından en az birinin makul alternatifi sınandı mı?\n\n\n\nBir öğrencinin daha karmaşık yazılım kullanması tek başına daha yüksek not üretmez.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Değerlendirme"
+    ]
+  },
+  {
+    "objectID": "course-guide.html",
+    "href": "course-guide.html",
+    "title": "Ders Rehberi",
+    "section": "",
+    "text": "Bu dersin sonunda öğrenci yalnızca veri temizleyebilen veya birleştirebilen biri değil; bir araştırma sorusu için gerekli veri nesnesini literatüre dayalı kararlarla kurabilen, bu kararların alternatiflerini görebilen ve ortaya çıkan nesneyi doğrulayabilen bir araştırmacı olmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "course-guide.html#dersin-akademik-amacı",
+    "href": "course-guide.html#dersin-akademik-amacı",
+    "title": "Ders Rehberi",
+    "section": "",
+    "text": "Bu dersin sonunda öğrenci yalnızca veri temizleyebilen veya birleştirebilen biri değil; bir araştırma sorusu için gerekli veri nesnesini literatüre dayalı kararlarla kurabilen, bu kararların alternatiflerini görebilen ve ortaya çıkan nesneyi doğrulayabilen bir araştırmacı olmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "course-guide.html#okuma-mimarisi",
+    "href": "course-guide.html#okuma-mimarisi",
+    "title": "Ders Rehberi",
+    "section": "Okuma mimarisi",
+    "text": "Okuma mimarisi\nHer içerik haftasında iki dış akademik metin bulunur. Bunların rolleri farklıdır.\nOkuma A — veri problemi / kuramsal çıpa. Haftanın doğrudan veri sorununu tanımlar: tidy data, data quality, integration, provenance, temporal representation gibi.\nOkuma B — epistemik sonuç çıpası. Makul kararların farklı sonuçlar üretebileceğini, researcher degrees of freedom’u veya specification uncertainty’yi görünür kılar.\nBunlara ek olarak M6 Case Window bulunur. M6 üçüncü bir tam-zorunlu makale gibi okunmaz; her hafta yalnız ilgili yöntem veya appendix kesiti ortak vaka olarak kullanılır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "course-guide.html#ders-öncesi-okuma-kartı",
+    "href": "course-guide.html#ders-öncesi-okuma-kartı",
+    "title": "Ders Rehberi",
+    "section": "Ders öncesi okuma kartı",
+    "text": "Ders öncesi okuma kartı\nREAD formunda öğrenci kısa ama analitik dört kayıt bırakır:\n\nClaim: İki dış okumanın haftanın veri problemi açısından en önemli iddiası nedir?\nEvidence: İddia hangi kanıt veya örnekle destekleniyor?\nDecision: Metinlerin işaret ettiği önemli veri/metodoloji kararı nedir?\nTransfer: Bu karar M6 vakasına veya başka bir araştırma problemine nasıl taşınabilir?\n\nAmaç makale özeti üretmek değil, okumayı veri kararına bağlamaktır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "course-guide.html#m6-running-case",
+    "href": "course-guide.html#m6-running-case",
+    "title": "Ders Rehberi",
+    "section": "M6 running case",
+    "text": "M6 running case\nDönem boyunca aynı araştırma zincirinin farklı katmanları incelenir:\nSciSciNet source representation → frozen snapshot → candidate construction → citation-age representation → boundary operationalization → pre-transition event set → field/doctype composition → sensitivity & calibration\nM6 özellikle şu ayrımı görünür kılar: aynı sabit citation history üzerinde savunulabilir transition operationalization’lar farklı boundary’ler belirleyebilir ve böylece sonraki analizde kullanılan event set değişebilir. Yayla (2026)",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "course-guide.html#araç-politikası",
+    "href": "course-guide.html#araç-politikası",
+    "title": "Ders Rehberi",
+    "section": "Araç politikası",
+    "text": "Araç politikası\nAraç karmaşıklığı bir başarı ölçütü değildir. Öğrencinin aracı problem için gerekçelendirmesi beklenir.\n\n\n\n\n\n\n\nİhtiyaç\nOlası araçlar\n\n\n\n\nHızlı tabular inspection / profiling\nExcel\n\n\nTekrarlanabilir GUI dönüşümü\nPower Query\n\n\nString/kategori cleaning ve reconciliation\nOpenRefine\n\n\nGörsel, modüler pipeline\nKNIME\n\n\nJoin, aggregation, relational query\nSQL / DuckDB\n\n\nÖzel mantık, API, otomasyon, yeniden üretilebilir analiz\nPython / R\n\n\n\nBir haftada iki aracı birden kullanmak yalnız pedagojik olarak anlamlıysa zorunludur. Tool parity sürekli değil, stratejiktir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "course-guide.html#trace-consequence-check",
+    "href": "course-guide.html#trace-consequence-check",
+    "title": "Ders Rehberi",
+    "section": "TRACE + Consequence Check",
+    "text": "TRACE + Consequence Check\nTRACE’in altı aşaması korunur:\nPredict → Encounter → Probe → Explain → Decide → Verify\nAncak Probe, mümkün olduğunda teknik parametre değişikliğinden daha ileri götürülür: öğrenci makul alternatif veri kararını uygular. Verify ise iki soruyu ayırır:\n\nİşlem teknik olarak doğru mu?\nAlternatif karar downstream veri nesnesini veya basit bir sonucu değiştirdi mi?\n\nBu ikinci soru, multiverse/specification literatürünü veri manipülasyonu dersine bağlayan köprüdür. Steegen vd. (2016) Simonsohn vd. (2020)",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "course-guide.html#haftalık-teslimler",
+    "href": "course-guide.html#haftalık-teslimler",
+    "title": "Ders Rehberi",
+    "section": "Haftalık teslimler",
+    "text": "Haftalık teslimler\nHaftalık TASK teslimi dört kanıt üretmelidir: veri/workflow bağlantısı, kısa TRACE kaydı, en az bir doğrulama kontrolü ve kullanılan akademik okumanın veri kararını nasıl desteklediği. Uygun haftalarda buna iki makul branch’in küçük bir consequence comparison’ı eklenir.\nBu haftalık parçalar final paketinin doğrudan bileşenidir; ayrı ve bağlantısız alıştırmalar değildir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Ders Rehberi"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "İZA105 — Veri Manipülasyonu",
+    "section": "",
+    "text": "Bir akademik iddianın ihtiyaç duyduğu veri nesnesi nasıl bulunur, kurulur, dönüştürülür, doğrulanır ve başka bir araştırmacının yeniden üretebileceği hâle getirilir?\nİZA105 bir komut veya yazılım dersi değildir. Dersin nesnesi, ham kayıttan analize hazır veri nesnesine giden karar zinciridir. Excel, Power Query, OpenRefine, KNIME, SQL/DuckDB, Python ve R bu zincirde probleme göre seçilen alternatif araçlardır.\n\n\nBir veri dönüşümü yalnızca teknik bir işlem değildir.\nDönüşüm, analize girecek ampirik nesnenin kimlerden, hangi kayıtlardan, hangi zaman aralığından ve hangi temsil biçiminden oluşacağını belirleyebilir.\nBu nedenle her önemli veri kararı:\ngerekçe + alternatif + sonuç + doğrulama kanıtı\nile birlikte ele alınır."
+  },
+  {
+    "objectID": "index.html#dersin-temel-sorusu",
+    "href": "index.html#dersin-temel-sorusu",
+    "title": "İZA105 — Veri Manipülasyonu",
+    "section": "",
+    "text": "Bir akademik iddianın ihtiyaç duyduğu veri nesnesi nasıl bulunur, kurulur, dönüştürülür, doğrulanır ve başka bir araştırmacının yeniden üretebileceği hâle getirilir?\nİZA105 bir komut veya yazılım dersi değildir. Dersin nesnesi, ham kayıttan analize hazır veri nesnesine giden karar zinciridir. Excel, Power Query, OpenRefine, KNIME, SQL/DuckDB, Python ve R bu zincirde probleme göre seçilen alternatif araçlardır.\n\n\nBir veri dönüşümü yalnızca teknik bir işlem değildir.\nDönüşüm, analize girecek ampirik nesnenin kimlerden, hangi kayıtlardan, hangi zaman aralığından ve hangi temsil biçiminden oluşacağını belirleyebilir.\nBu nedenle her önemli veri kararı:\ngerekçe + alternatif + sonuç + doğrulama kanıtı\nile birlikte ele alınır."
+  },
+  {
+    "objectID": "index.html#üç-katmanlı-ders-mimarisi",
+    "href": "index.html#üç-katmanlı-ders-mimarisi",
+    "title": "İZA105 — Veri Manipülasyonu",
+    "section": "Üç katmanlı ders mimarisi",
+    "text": "Üç katmanlı ders mimarisi\nHer içerik haftası üç bileşeni birleştirir:\n\n\n\n\n\n\n\nKatman\nİşlev\n\n\n\n\nTeorik / veri-problemi okuması\nHaftanın veri problemini kavramsallaştırır.\n\n\nEpistemik çıpa\nMakul veri/analiz kararlarının bilimsel sonucu neden değiştirebildiğini gösterir.\n\n\nM6 running case\nAynı ilkelerin gerçek bir bibliyometrik araştırmada veri nesnesini nasıl kurduğunu ve sonuçlara nasıl yayıldığını somutlaştırır.\n\n\n\nDönem boyunca kullanılan M6 vaka çalışması, Yayla (2026b) ve analitik eki Yayla (2026a), tek doğru çözümü gösteren bir model cevap değildir. Öğrencinin dış literatürde öğrendiği ilkeleri eleştirel biçimde sınadığı ortak bir ampirik laboratuvardır."
+  },
+  {
+    "objectID": "index.html#haftalık-ritim",
+    "href": "index.html#haftalık-ritim",
+    "title": "İZA105 — Veri Manipülasyonu",
+    "section": "Haftalık ritim",
+    "text": "Haftalık ritim\n\nOkuma → M6 vaka penceresi → Predict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nConsequence check, TRACE’e yeni bir harf eklemez. Öğrenci yalnızca işlemin doğru çalışıp çalışmadığını değil, makul bir alternatif veri kararı verildiğinde downstream veri nesnesinin veya basit bir sonucun değişip değişmediğini de kontrol eder."
+  },
+  {
+    "objectID": "index.html#dönem-sonunda",
+    "href": "index.html#dönem-sonunda",
+    "title": "İZA105 — Veri Manipülasyonu",
+    "section": "Dönem sonunda",
+    "text": "Dönem sonunda\nFinal projesinde öğrenci seçtiği ampirik çalışma için yeniden üretilebilir bir veri paketi oluşturur ve en kritik veri kararlarından en az birini alternatif bir specification ile test eder. Amaç tam istatistiksel replikasyon değil; analizin güvenilir biçimde başlayabileceği veri nesnesini üretmek ve bu nesnenin hangi kararlara duyarlı olduğunu göstermektir."
+  },
+  {
+    "objectID": "participation.html",
+    "href": "participation.html",
+    "title": "Aktif Katılım",
+    "section": "",
+    "text": "Katılım sistemi fiziksel devamı tek başına ölçmez. Her içerik haftasında öğrencinin hazırlık, karar ve kanıt üretimine ilişkin iki dijital iz bırakması beklenir:\n\nREAD: iki dış akademik okumadan Claim → Evidence → Decision → Transfer\nTASK: TRACE uygulaması, workflow bağlantısı, doğrulama kanıtı ve akademik gerekçe\n\nHafta 7 vize, Hafta 14 final haftasıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Aktif Katılım"
+    ]
+  },
+  {
+    "objectID": "participation.html#ne-izleniyor",
+    "href": "participation.html#ne-izleniyor",
+    "title": "Aktif Katılım",
+    "section": "",
+    "text": "Katılım sistemi fiziksel devamı tek başına ölçmez. Her içerik haftasında öğrencinin hazırlık, karar ve kanıt üretimine ilişkin iki dijital iz bırakması beklenir:\n\nREAD: iki dış akademik okumadan Claim → Evidence → Decision → Transfer\nTASK: TRACE uygulaması, workflow bağlantısı, doğrulama kanıtı ve akademik gerekçe\n\nHafta 7 vize, Hafta 14 final haftasıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Aktif Katılım"
+    ]
+  },
+  {
+    "objectID": "participation.html#m6-katılımı-nasıl-görünür-olur",
+    "href": "participation.html#m6-katılımı-nasıl-görünür-olur",
+    "title": "Aktif Katılım",
+    "section": "M6 katılımı nasıl görünür olur?",
+    "text": "M6 katılımı nasıl görünür olur?\nM6 üçüncü bir uzun özet ödevi değildir. Haftalık sayfadaki M6 Case Window derste ortak analiz nesnesi olarak kullanılır. TASK formundaki Predict / Probe / Explain / Decide / Verify yanıtları, öğrencinin vakada hangi veri kararını sınadığını görünür kılar.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Aktif Katılım"
+    ]
+  },
+  {
+    "objectID": "participation.html#dashboardun-yorumu",
+    "href": "participation.html#dashboardun-yorumu",
+    "title": "Aktif Katılım",
+    "section": "Dashboard’un yorumu",
+    "text": "Dashboard’un yorumu\nKATILIM_OZET tablosunda 1, ilgili READ/TASK formunun teslim edildiğini gösterir. Bu işaret yanıtın akademik kalitesini otomatik olarak puanlamaz. Nitelik, haftalık görevdeki gerekçe, doğrulama ve consequence check üzerinden değerlendirilir.\nÖğrenci numarası ana eşleştirme anahtarıdır; e-posta iletişim metadata’sı olarak form yanıtından sonradan tamamlanabilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Aktif Katılım"
+    ]
+  },
+  {
+    "objectID": "participation.html#öğretim-elemanı-için-minimum-kontrol",
+    "href": "participation.html#öğretim-elemanı-için-minimum-kontrol",
+    "title": "Aktif Katılım",
+    "section": "Öğretim elemanı için minimum kontrol",
+    "text": "Öğretim elemanı için minimum kontrol\nBir öğrencinin “aktif katıldı” sayılabilmesi için yalnız form göndermesi değil, haftanın veri kararını tanımlaması, en az bir doğrulama kanıtı üretmesi ve okumalardan en az birini bu karara bağlaması beklenir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Aktif Katılım"
+    ]
+  },
+  {
+    "objectID": "weeks/week01.html",
+    "href": "weeks/week01.html",
+    "title": "Hafta 01 — Veri bir dosya değil, analitik bir temsildir",
+    "section": "",
+    "text": "Data lifecycle; source representation; observation, variable, entity; veri üretim izlenebilirliği.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+    ]
+  },
+  {
+    "objectID": "weeks/week01.html#haftanın-akademik-problemi",
+    "href": "weeks/week01.html#haftanın-akademik-problemi",
+    "title": "Hafta 01 — Veri bir dosya değil, analitik bir temsildir",
+    "section": "",
+    "text": "Data lifecycle; source representation; observation, variable, entity; veri üretim izlenebilirliği.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+    ]
+  },
+  {
+    "objectID": "weeks/week01.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week01.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 01 — Veri bir dosya değil, analitik bir temsildir",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Çetinkaya-Rundel ve Ellison (2021) — Veri bilimi sürecini acquisition, wrangling ve communication dahil bütün bir analitik döngü olarak görmek.\nOkuma B: Uher (2020) — Sayısal değerin kendisinden önce data generation traceability ve numerical traceability sorununu kavramak.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+    ]
+  },
+  {
+    "objectID": "weeks/week01.html#m6-case-window",
+    "href": "weeks/week01.html#m6-case-window",
+    "title": "Hafta 01 — Veri bir dosya değil, analitik bir temsildir",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6’nın başlangıç nesnesi SciSciNet-v2’dir; fakat çalışma doğrudan canlı kaynağı analiz etmez. Kaynak representation 7 Eylül 2026 tarihli snapshot olarak dondurulur; H=30, 1980–1994 scope ve N=1,351 candidate birer tasarım sabitidir. Yayla (2026)\nVaka sorusu: Bir hücredeki veya satırdaki değeri ‘veri’ yapan şey yalnız değerin kendisi midir, yoksa onu üreten zincir de analitik nesnenin parçası mıdır?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+    ]
+  },
+  {
+    "objectID": "weeks/week01.html#ders-içi-trace",
+    "href": "weeks/week01.html#ders-içi-trace",
+    "title": "Hafta 01 — Veri bir dosya değil, analitik bir temsildir",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nExcel/CSV viewer, KNIME veya Python/R ile inspection\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+    ]
+  },
+  {
+    "objectID": "weeks/week01.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week01.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 01 — Veri bir dosya değil, analitik bir temsildir",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nBir açık veri seti için Data Autopsy oluştur. source → acquired representation → cleaning/transformation → analysis-ready object zincirinde en az sekiz kararı observed / inferred / unknown olarak etiketle. M6 ile karşılaştırarak hangi aşamada ‘source data’ ile ‘study data’ ayrışıyor, açıklayın. En az bir dosya hash’i veya sürüm/tarih kanıtı ekleyin.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+    ]
+  },
+  {
+    "objectID": "weeks/week01.html#teslim-kanıtı",
+    "href": "weeks/week01.html#teslim-kanıtı",
+    "title": "Hafta 01 — Veri bir dosya değil, analitik bir temsildir",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 01 — Veri bir dosya değil, analitik bir temsildir"
+    ]
+  },
+  {
+    "objectID": "weeks/week03.html",
+    "href": "weeks/week03.html",
+    "title": "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar",
+    "section": "",
+    "text": "Structured/semi-structured/unstructured kaynaklar; API/web acquisition; provenance ve re-acquisition.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar"
+    ]
+  },
+  {
+    "objectID": "weeks/week03.html#haftanın-akademik-problemi",
+    "href": "weeks/week03.html#haftanın-akademik-problemi",
+    "title": "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar",
+    "section": "",
+    "text": "Structured/semi-structured/unstructured kaynaklar; API/web acquisition; provenance ve re-acquisition.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar"
+    ]
+  },
+  {
+    "objectID": "weeks/week03.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week03.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Dogucu ve Çetinkaya-Rundel (2021) — Web verisini acquisition + wrangling + ethics problemi olarak görmek.\nOkuma B: Anglin (2019) — Dağınık web kaynaklarının sistematik gather–narrow–extract zinciriyle araştırma verisine dönüştürülmesini incelemek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar"
+    ]
+  },
+  {
+    "objectID": "weeks/week03.html#m6-case-window",
+    "href": "weeks/week03.html#m6-case-window",
+    "title": "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6, canlı bibliyometrik veri tabanının zaman içinde değişebileceğini açıkça problemleştirir. Retrospective indexing, record merging ve citation-link correction gibi değişimler nedeniyle input representation dondurulur ve snapshot identifier ile kaydedilir. Yayla (2026)\nVaka sorusu: Aynı sorguyu altı ay sonra çalıştırdığınızda farklı veri gelirse reprodüksiyon için hangi acquisition kanıtlarını saklamanız gerekir?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar"
+    ]
+  },
+  {
+    "objectID": "weeks/week03.html#ders-içi-trace",
+    "href": "weeks/week03.html#ders-içi-trace",
+    "title": "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nPower Query From Web, KNIME REST/JSON, Python/R API veya scraping\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar"
+    ]
+  },
+  {
+    "objectID": "weeks/week03.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week03.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nAynı olgu için biri tabular, biri web/API tabanlı iki veri kaynağı edin. Acquisition Log oluştur: URL/endpoint, retrieval date, query/filter, format, license, expected scope ve re-acquisition steps. Bir kaynağın yarın değişmesi halinde sonuçların hangi kısmının yeniden üretilemeyeceğini belirt.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar"
+    ]
+  },
+  {
+    "objectID": "weeks/week03.html#teslim-kanıtı",
+    "href": "weeks/week03.html#teslim-kanıtı",
+    "title": "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 03 — Veri edinimi: web, API ve yarı-yapısal kaynaklar"
+    ]
+  },
+  {
+    "objectID": "weeks/week05.html",
+    "href": "weeks/week05.html",
+    "title": "Hafta 05 — Veri temizleme bir ölçüm kararıdır",
+    "section": "",
+    "text": "Missingness, duplicates, invalid values, categorical normalization, date/string sorunları ve information loss.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 05 — Veri temizleme bir ölçüm kararıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week05.html#haftanın-akademik-problemi",
+    "href": "weeks/week05.html#haftanın-akademik-problemi",
+    "title": "Hafta 05 — Veri temizleme bir ölçüm kararıdır",
+    "section": "",
+    "text": "Missingness, duplicates, invalid values, categorical normalization, date/string sorunları ve information loss.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 05 — Veri temizleme bir ölçüm kararıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week05.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week05.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 05 — Veri temizleme bir ölçüm kararıdır",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Rahm ve Do (2000) — Cleaning problemlerini schema, duplicate ve multi-source issues içinde sistematik görmek.\nOkuma B: Steegen vd. (2016) — Makul data-processing kararlarının alternatif analytic datasets ve sonuçlar üretebildiğini görmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 05 — Veri temizleme bir ölçüm kararıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week05.html#m6-case-window",
+    "href": "weeks/week05.html#m6-case-window",
+    "title": "Hafta 05 — Veri temizleme bir ölçüm kararıdır",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6 aynı-year citations’ı tutar; negative citation ages ise audit edilip temporal trajectories’den çıkarılır. Bunlar ‘temizlik’ gibi görünür, fakat observation membership ve temporal representation’ı etkileyen açık tasarım kararlarıdır. Yayla (2026)\nVaka sorusu: Bir kaydı silmek ne zaman hata düzeltme, ne zaman sample/measurement decision olur?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 05 — Veri temizleme bir ölçüm kararıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week05.html#ders-içi-trace",
+    "href": "weeks/week05.html#ders-içi-trace",
+    "title": "Hafta 05 — Veri temizleme bir ölçüm kararıdır",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nPower Query, OpenRefine, KNIME Missing Value, pandas/R\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 05 — Veri temizleme bir ölçüm kararıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week05.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week05.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 05 — Veri temizleme bir ölçüm kararıdır",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nAynı kirli veri üzerinde iki savunulabilir cleaning branch oluştur. Bir branch’i yalnız ‘daha temiz göründüğü’ için seçme. Her branch sonrası N, missingness ve en az bir basit substantive summary’yi karşılaştır. Hangi farkın data decision’dan kaynaklandığını açıkla.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 05 — Veri temizleme bir ölçüm kararıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week05.html#teslim-kanıtı",
+    "href": "weeks/week05.html#teslim-kanıtı",
+    "title": "Hafta 05 — Veri temizleme bir ölçüm kararıdır",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 05 — Veri temizleme bir ölçüm kararıdır"
+    ]
+  },
+  {
+    "objectID": "weeks/week07.html",
+    "href": "weeks/week07.html",
+    "title": "Hafta 07 — Vize — Veri Hazırlama Denetimi",
+    "section": "",
+    "text": "Hafta 1–6 sentezi; yeni zorunlu okuma yok.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 07 — Vize — Veri Hazırlama Denetimi"
+    ]
+  },
+  {
+    "objectID": "weeks/week07.html#haftanın-akademik-problemi",
+    "href": "weeks/week07.html#haftanın-akademik-problemi",
+    "title": "Hafta 07 — Vize — Veri Hazırlama Denetimi",
+    "section": "",
+    "text": "Hafta 1–6 sentezi; yeni zorunlu okuma yok.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 07 — Vize — Veri Hazırlama Denetimi"
+    ]
+  },
+  {
+    "objectID": "weeks/week07.html#ders-öncesi",
+    "href": "weeks/week07.html#ders-öncesi",
+    "title": "Hafta 07 — Vize — Veri Hazırlama Denetimi",
+    "section": "Ders öncesi",
+    "text": "Ders öncesi\nBu hafta yeni zorunlu okuma yoktur. Vize, Hafta 1–6 okumalarını somut veri kararlarına bağlayan bir sentezdir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 07 — Vize — Veri Hazırlama Denetimi"
+    ]
+  },
+  {
+    "objectID": "weeks/week07.html#m6-case-window",
+    "href": "weeks/week07.html#m6-case-window",
+    "title": "Hafta 07 — Vize — Veri Hazırlama Denetimi",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6’nın tasarım disiplinini kullan: hangi input sabit, hangi karar değişiyor ve fark downstream hangi veri nesnesine yayılıyor? Çalışmanın sonucunu ezberlemek beklenmez. Yayla (2026)\nVaka sorusu: Teknik olarak çalışan bir pipeline’ın araştırma açısından savunulabilir olduğunu hangi kanıtlarla gösterebilirsiniz?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 07 — Vize — Veri Hazırlama Denetimi"
+    ]
+  },
+  {
+    "objectID": "weeks/week07.html#ders-içi-trace",
+    "href": "weeks/week07.html#ders-içi-trace",
+    "title": "Hafta 07 — Vize — Veri Hazırlama Denetimi",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nAraç serbest; araç seçiminin gerekçesi zorunlu\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 07 — Vize — Veri Hazırlama Denetimi"
+    ]
+  },
+  {
+    "objectID": "weeks/week07.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week07.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 07 — Vize — Veri Hazırlama Denetimi",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nTake-home vize: Acquisition → Quality → Cleaning → Transformation → Alternative branch → Verification zinciri. En az üç önceki okumayı somut kararlara bağla. En az bir plausible branch uygula ve basit bir downstream quantity üzerindeki etkisini göster.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 07 — Vize — Veri Hazırlama Denetimi"
+    ]
+  },
+  {
+    "objectID": "weeks/week07.html#teslim-kanıtı",
+    "href": "weeks/week07.html#teslim-kanıtı",
+    "title": "Hafta 07 — Vize — Veri Hazırlama Denetimi",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 07 — Vize — Veri Hazırlama Denetimi"
+    ]
+  },
+  {
+    "objectID": "weeks/week09.html",
+    "href": "weeks/week09.html",
+    "title": "Hafta 09 — Veri modeli, depolama ve erişim",
+    "section": "",
+    "text": "Relational, tabular ve semi-structured representations; schema-on-read/write; access pattern.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 09 — Veri modeli, depolama ve erişim"
+    ]
+  },
+  {
+    "objectID": "weeks/week09.html#haftanın-akademik-problemi",
+    "href": "weeks/week09.html#haftanın-akademik-problemi",
+    "title": "Hafta 09 — Veri modeli, depolama ve erişim",
+    "section": "",
+    "text": "Relational, tabular ve semi-structured representations; schema-on-read/write; access pattern.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 09 — Veri modeli, depolama ve erişim"
+    ]
+  },
+  {
+    "objectID": "weeks/week09.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week09.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 09 — Veri modeli, depolama ve erişim",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Codd (1970) — Relational model ve data independence fikrini anlamak.\nOkuma B: Abiteboul (1997) — Semi-structured data’nın sabit schema varsayımlarını nasıl zorladığını görmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 09 — Veri modeli, depolama ve erişim"
+    ]
+  },
+  {
+    "objectID": "weeks/week09.html#m6-case-window",
+    "href": "weeks/week09.html#m6-case-window",
+    "title": "Hafta 09 — Veri modeli, depolama ve erişim",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6 tek bir tabloyu analiz etmez: source tables’dan citation-event object, oradan operator-specific phase set ve composition vector üretilir. Her katman farklı sorgu ve doğrulama ihtiyacı taşır. Yayla (2026)\nVaka sorusu: Aynı araştırma nesnesini flat CSV, relational tables ve nested JSON olarak tutmak hangi hataları kolaylaştırır veya zorlaştırır?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 09 — Veri modeli, depolama ve erişim"
+    ]
+  },
+  {
+    "objectID": "weeks/week09.html#ders-içi-trace",
+    "href": "weeks/week09.html#ders-içi-trace",
+    "title": "Hafta 09 — Veri modeli, depolama ve erişim",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nExcel/CSV, SQLite/DuckDB, JSON/Parquet, KNIME\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 09 — Veri modeli, depolama ve erişim"
+    ]
+  },
+  {
+    "objectID": "weeks/week09.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week09.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 09 — Veri modeli, depolama ve erişim",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nAynı küçük veri ürününü iki representation’da sakla ve üç ortak operation çalıştır. Format seçimini dosya büyüklüğünden önce keys, repeated entities, schema evolution, portability ve validation açısından gerekçelendir.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 09 — Veri modeli, depolama ve erişim"
+    ]
+  },
+  {
+    "objectID": "weeks/week09.html#teslim-kanıtı",
+    "href": "weeks/week09.html#teslim-kanıtı",
+    "title": "Hafta 09 — Veri modeli, depolama ve erişim",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 09 — Veri modeli, depolama ve erişim"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html",
+    "href": "weeks/week11.html",
+    "title": "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım",
+    "section": "",
+    "text": "FAIR, datasheets, privacy, minimization, license, source/derived data responsibilities.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#haftanın-akademik-problemi",
+    "href": "weeks/week11.html#haftanın-akademik-problemi",
+    "title": "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım",
+    "section": "",
+    "text": "FAIR, datasheets, privacy, minimization, license, source/derived data responsibilities.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week11.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Wilkinson vd. (2016) — Verinin findable, accessible, interoperable ve reusable olmasını temel stewardship ilkeleri olarak görmek.\nOkuma B: Gebru vd. (2021) — Dataset üretim sürecini motivation, composition, collection ve recommended uses üzerinden dokümante etmek.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#m6-case-window",
+    "href": "weeks/week11.html#m6-case-window",
+    "title": "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6 source representation, frozen analytical input ve derived outputs’u birbirinden ayırır. Aynı distinction yeniden kullanım için kritiktir: kullanıcıya yalnız final CSV vermek, hangi snapshot ve hangi dönüşümlerin kullanıldığını açıklamaz. Yayla (2026)\nVaka sorusu: Reproducible olmak için veriyi paylaşmak yeterli midir; yoksa yeniden edinme ve lineage bilgisi de veri ürününün parçası mıdır?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#ders-içi-trace",
+    "href": "weeks/week11.html#ders-içi-trace",
+    "title": "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nAraçtan bağımsız; gerektiğinde minimization için Excel/KNIME/Python/R\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week11.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nFinal verin için mini Datasheet + FAIR audit hazırla. Alanları necessary / optional / risky / unjustified olarak sınıflandır. License/access sınırlarını ve source/derived distinction’ı açıkla. Gereksiz alanları çıkarılmış minimization sürümü üret.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım"
+    ]
+  },
+  {
+    "objectID": "weeks/week11.html#teslim-kanıtı",
+    "href": "weeks/week11.html#teslim-kanıtı",
+    "title": "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 11 — Veri yönetişimi, dokümantasyon ve yeniden kullanım"
+    ]
+  },
+  {
+    "objectID": "weeks/week13.html",
+    "href": "weeks/week13.html",
+    "title": "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar",
+    "section": "",
+    "text": "Defensible comparison space; researcher degrees of freedom; no-code/low-code/code ve specification uncertainty.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+    ]
+  },
+  {
+    "objectID": "weeks/week13.html#haftanın-akademik-problemi",
+    "href": "weeks/week13.html#haftanın-akademik-problemi",
+    "title": "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar",
+    "section": "",
+    "text": "Defensible comparison space; researcher degrees of freedom; no-code/low-code/code ve specification uncertainty.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+    ]
+  },
+  {
+    "objectID": "weeks/week13.html#ders-öncesi-akademik-okumalar",
+    "href": "weeks/week13.html#ders-öncesi-akademik-okumalar",
+    "title": "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar",
+    "section": "Ders öncesi akademik okumalar",
+    "text": "Ders öncesi akademik okumalar\n\nOkuma A: Simonsohn vd. (2020) — Specification space’i theoretically justified, statistically valid ve non-redundant alternatives ile sınırlamak.\nOkuma B: Young ve Holsteen (2017) — Model/specification uncertainty’yi sistematik computational comparison olarak kavramak.\n\n\nOkuma amacı: iki metni özetlemek değil; haftanın veri kararını hangi kavramlarla gerekçelendireceğinizi belirlemek.\nREAD formunda Claim → Evidence → Decision → Transfer kaydı bırakın.\n\nOkuma formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+    ]
+  },
+  {
+    "objectID": "weeks/week13.html#m6-case-window",
+    "href": "weeks/week13.html#m6-case-window",
+    "title": "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar",
+    "section": "M6 Case Window",
+    "text": "M6 Case Window\n\nM6’nın comparison space’i üç operator ile sınırlıdır çünkü hepsi aynı paper-specific boundary-localization görevini çözer. Ranking-only measures ve generic changepoint families aynı task’i aynı şekilde çözmediği için dışarıda bırakılır. Reported pairwise exact boundary agreement yalnız %26.8–%41.2; three-way exact agreement %17.3’tür. Yayla (2026)\nVaka sorusu: Bir yöntemin aynı veriye uygulanabilmesi, onun aynı comparison space’e ait olması için yeterli midir?",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+    ]
+  },
+  {
+    "objectID": "weeks/week13.html#ders-içi-trace",
+    "href": "weeks/week13.html#ders-içi-trace",
+    "title": "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar",
+    "section": "Ders içi TRACE",
+    "text": "Ders içi TRACE\n\nPredict → Encounter → Probe → Explain → Decide → Verify → Consequence check\n\nPredict: işlemden önce beklenen veri yapısını veya farkı yaz.\nEncounter: işlemi seçilen araçla gerçekleştir.\nProbe: makul bir alternative data decision veya specification uygula.\nExplain: iki branch arasındaki farkın hangi kayıtlardan/kurallardan doğduğunu açıkla.\nDecide: primary branch’i literatür ve araştırma amacıyla gerekçelendir.\nVerify: teknik invariants + downstream consequence kontrolü üret.\n\nAraç paleti\nEn az iki yaklaşım: Power Query/KNIME/SQL/Python/R kombinasyonu\nAraç seçimi notlandırılan karmaşıklık düzeyi değildir; problem–tool fit gerekçelendirilir.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+    ]
+  },
+  {
+    "objectID": "weeks/week13.html#ders-sonrası-pekiştirici-eylem",
+    "href": "weeks/week13.html#ders-sonrası-pekiştirici-eylem",
+    "title": "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar",
+    "section": "Ders sonrası pekiştirici eylem",
+    "text": "Ders sonrası pekiştirici eylem\n\nFinal pipeline’ından bir kritik operation için defensible comparison space tanımla. En az iki implementation/specification karşılaştır. Aynı specification’ın iki araçtaki çıktısını eşdeğerlik açısından doğrula; sonra specification değiştiğinde değişen observation set veya summary’yi ayrı raporla.\n\nTRACE ödev formunu aç",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+    ]
+  },
+  {
+    "objectID": "weeks/week13.html#teslim-kanıtı",
+    "href": "weeks/week13.html#teslim-kanıtı",
+    "title": "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar",
+    "section": "Teslim kanıtı",
+    "text": "Teslim kanıtı\nTeslimde workflow/veri bağlantısı, kısa TRACE kaydı, en az bir doğrulama kanıtı ve akademik gerekçe bulunmalıdır. Consequence check istenen haftalarda primary ve alternative branch aynı downstream quantity üzerinden karşılaştırılmalıdır.",
+    "crumbs": [
+      "Ana Sayfa",
+      "Haftalar",
+      "Hafta 13 — Specification space: aynı problem, farklı savunulabilir yollar"
+    ]
+  }
+]
